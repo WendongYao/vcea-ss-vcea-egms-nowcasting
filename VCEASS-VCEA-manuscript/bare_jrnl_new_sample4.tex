@@ -55,6 +55,7 @@
 \newcommand{\egms}{EGMS 2019--2023 Ortho U}
 \newcommand{\vcea}{VCEA}
 \newcommand{\ssvcea}{SS-VCEA}
+\newcommand{\projectrepo}{\url{https://github.com/WendongYao/vcea-ss-vcea-egms-nowcasting}}
 \newif\ifusebibtexrefs
 \usebibtexrefstrue % existing Related Work citations require BibTeX in the manuscript build
 
@@ -530,7 +531,7 @@ The main localized operating-boundary cases in the geographically stratified 14-
 Additional limitations remain. Some high-resolution sensitivity results involve proxy, transfer, or cache-reuse assumptions. The SS-VCEA risk score uses an equal-normalized design choice from the matched operating-point reference study and should be revisited if domain-specific risk weights become available. Finally, while the workflow is leakage-safe and audit-driven, the method is not a physics-informed simulator.
 
 \section{Reproducibility Statement}
-The reproducibility package records product manifests, tile manifests, split definitions, expert cache provenance, aggregation calibration, threshold diagnostics, 14-tile audit metadata, software environment details, main random seeds, and exact/proxy/transfer flags where relevant. These materials make it possible to trace each manuscript claim to the corresponding data split, expert cache, threshold choice, and result table. A compact claim-to-evidence map and the detailed asset traceability tables are provided in Appendix~\ref{app:repro_trace}.
+The reproducibility package records product manifests, tile manifests, split definitions, expert cache provenance, aggregation calibration, threshold diagnostics, 14-tile audit metadata, software environment details, main random seeds, and exact/proxy/transfer flags where relevant. The main code and manuscript-facing release are available at \projectrepo. These materials make it possible to trace each manuscript claim to the corresponding data split, expert cache, threshold choice, and result table. A compact claim-to-evidence map and the detailed asset traceability tables are provided in Appendix~\ref{app:repro_trace}.
 
 \section{Conclusion}
 We formulate EGMS regional ground-deformation nowcasting as validation-calibrated expert aggregation under strong persistence baselines. Within this formulation, VCEA uses validation-only tile- and horizon-aware static weights and improves over the best-performing single-model baseline among the evaluated candidates on the primary main-six benchmark. The same frozen framework also shows positive future-evaluation performance on the geographically stratified 14-tile European frozen audit of held-out EGMS tiles under tile-local historical validation calibration.
@@ -976,6 +977,7 @@ This appendix keeps the compact traceability tables that map manuscript claims t
     Product manifest & \path{data/manifests/product_manifest.csv} & Data product provenance \\
     Tile manifest & \path{data/manifests/tile_manifest.csv} & Main/external tile provenance \\
     Resolution manifest & \path{data/manifests/resolution_manifest.csv} & 64/128/512 scope freeze \\
+    Project repository & \projectrepo & Public code and manuscript-facing release \\
     Main split & \path{splits/main6_train_val_test.json} & Formal primary main-six split \\
     External locked split & \path{splits/external4_locked_eval.json} & Frozen original external evaluation \\
     Expert cache registry & \path{cache/expert_cache_registry.yaml} & Expert prediction cache provenance \\
