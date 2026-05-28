@@ -1,0 +1,10 @@
+﻿Variant,Expert pool,Main-six Skill,External Skill,Stress ratio,Better tiles,Interpretation
+VCEA_full,"Persistence, Linear-Seasonal, M1, C3_opt",0.1776329118299743,0.317246347403093,1.0463388663683806,6,full pool reference
+without_persistence,"Linear-Seasonal, M1, C3_opt",0.17625030757670587,0.33393996623307887,1.0884397276267412,5,ablation / diagnostic
+without_C3_opt,"Persistence, Linear-Seasonal, M1",0.15769142796619087,0.3225651075289222,1.0926358516330634,5,ablation / diagnostic
+without_M1,"Persistence, Linear-Seasonal, C3_opt",0.15463321485269685,0.3070808755445836,1.0822000737569852,4,ablation / diagnostic
+only_neural,"M1, C3_opt",0.1265086642569768,0.1918103049220459,0.9952082657429071,6,ablation / diagnostic
+without_linear_seasonal,"Persistence, M1, C3_opt",0.11171485228252077,0.17354412386318135,0.996381304485503,5,ablation / diagnostic
+only_kinematic,"Persistence, Linear-Seasonal",0.09083934269917844,0.29970886064454605,1.1961321250556094,3,ablation / diagnostic
+uniform_expert_average,"Persistence, Linear-Seasonal, M1, C3_opt",-1.8054899285657646,0.26737418884412406,4.112246290929501,3,ablation / diagnostic
+

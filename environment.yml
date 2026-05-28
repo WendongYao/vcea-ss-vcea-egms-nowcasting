@@ -1,0 +1,17 @@
+name: vcea-extra-experiments
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.13.5
+  - pytorch=2.11.0+cu128
+  - numpy=2.4.0
+  - pandas=2.3.3
+  - matplotlib=3.10.8
+  - scipy
+  - scikit-image
+  - scikit-learn
+  - pip
+variables:
+  cuda_visible: "True"
+  device_name: "NVIDIA GeForce RTX 3090 Ti"

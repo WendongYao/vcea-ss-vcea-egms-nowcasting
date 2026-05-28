@@ -1,0 +1,9 @@
+metric_group,field,description
+primary,skill_mse,Primary relative-to-persistence metric
+primary,rmse_mm,RMSE in mm
+primary,mae_mm,MAE in mm
+primary,ssim,Structural similarity
+safety,stress_ratio,Over-correction safety diagnostic
+resolution,hotspot_skill,Hotspot Skill_MSE
+resolution,boundary_error,Boundary gradient RMSE
+context,regime,Dominant or local regime label

@@ -1,0 +1,11 @@
+Stage,Best candidate,Best mean Skill_MSE,Verdict,Reason not final / role
+V2 mainline,M1 / C2 PG-RQ-ACT,0.0783,pass,Best robust single-model line; kept as neural expert/baseline
+V3,V3-C quick,0.0135,fail,Too weak versus M1 despite acceptable complexity
+V4,V4-C original,0.0911,fail,Accuracy-credible but compute-no-go
+V4 rescue,C3_opt,0.0796,fail,Runtime fixed but full-six generalization insufficient
+V5,risk-aware selector,0.0964,fail,Oracle space exists but learned selector under-delivers on full-six
+V6,V6B_anchor_risk_l20,-0.1041,no_go,Anchored soft selector unstable and stress-unsafe
+V7,COEA audited,0.1322,pass,First successful aggregation family beyond M1
+StaticVal study,VCEA,0.1776,final_winner,Best overall accuracy trade-off
+V8,STR-Mamba / CoMEx,0.074,no_go,New architectures did not beat VCEA mainline
+DSCF,DSCF-Full / VCEA+DSCF,0.0082,no_go,Task-native consistency direction did not pass quick gate

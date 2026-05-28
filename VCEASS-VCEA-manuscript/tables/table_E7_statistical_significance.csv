@@ -1,0 +1,2 @@
+comparison,n_tiles,wins,losses,ties,sign_test_n,sign_test_pvalue_two_sided,mean_gain,bootstrap_ci95_low,bootstrap_ci95_high,bootstrap_iterations,bootstrap_seed,wilcoxon_statistic,wilcoxon_pvalue_two_sided,source_csv
+VCEA_vs_M1_tile_mean_gain,14,14,0,0,14,0.0001220703125,0.1473563070590386,0.08873811539872542,0.21656354029640754,10000,20260528,0.0,0.0001220703125,paper_assets_vcea_extras/tables_csv_original/E7_strong/table_E7_pan_europe_locked_results_by_tile.csv

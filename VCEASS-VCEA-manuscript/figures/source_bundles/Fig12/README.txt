@@ -1,0 +1,1 @@
+Ready resolution sensitivity visual assets.

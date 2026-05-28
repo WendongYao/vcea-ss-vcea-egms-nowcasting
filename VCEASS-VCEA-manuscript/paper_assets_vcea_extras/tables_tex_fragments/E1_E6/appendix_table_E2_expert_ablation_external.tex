@@ -1,0 +1,23 @@
+% Source CSV: tables_csv_original/E1_E6/table_E2_expert_ablation_external.csv
+\begin{table*}[t]
+\centering
+\scriptsize
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{llrrrrp{0.18\textwidth}}
+\toprule
+Variant & Expert pool & Main-six Skill$_{\mathrm{MSE}}$ & External Skill$_{\mathrm{MSE}}$ & Stress ratio & Better tiles & Interpretation \\
+\midrule
+without\_persistence & Linear-Seasonal, M1, C3\_opt & 0.1762503075767058 & 0.3339399662330788 & 0.9701403863132964 & 4 & external locked check \\
+without\_C3\_opt & Persistence, Linear-Seasonal, M1 & 0.1576914279661908 & 0.3225651075289222 & 0.9781494754047452 & 4 & external locked check \\
+VCEA\_full & Persistence, Linear-Seasonal, M1, C3\_opt & 0.1776329118299743 & 0.317246347403093 & 0.9741283274440994 & 4 & external locked check \\
+without\_M1 & Persistence, Linear-Seasonal, C3\_opt & 0.1546332148526968 & 0.3070808755445836 & 0.9781758551872904 & 4 & external locked check \\
+only\_kinematic & Persistence, Linear-Seasonal & 0.0908393426991784 & 0.299708860644546 & 0.9803349825252194 & 4 & external locked check \\
+uniform\_expert\_average & Persistence, Linear-Seasonal, M1, C3\_opt & -1.8054899285657648 & 0.267374188844124 & 1.1221181511428469 & 4 & external locked check \\
+only\_neural & M1, C3\_opt & 0.1265086642569768 & 0.1918103049220459 & 0.9826631932115996 & 4 & external locked check \\
+without\_linear\_seasonal & Persistence, M1, C3\_opt & 0.1117148522825207 & 0.1735441238631813 & 0.9874788111812036 & 2 & external locked check \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\caption{Expert-pool ablation on the original external locked evaluation. The table reports how removing individual experts changes transfer skill and stress relative to the full VCEA pool.}
+\label{tab:e2_expert_ablation_external}
+\end{table*}

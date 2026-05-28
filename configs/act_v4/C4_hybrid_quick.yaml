@@ -1,0 +1,41 @@
+﻿model_id: C4_V4C_hybrid
+variant: c4
+input_len: 16
+horizons:
+  - 1
+  - 3
+  - 5
+  - 10
+dim: 48
+scale_factors:
+  - 1
+  - 2
+  - 4
+scale_dims:
+  - 16
+  - 16
+  - 16
+scale_depths:
+  - 1
+  - 1
+  - 1
+batch_size: 8
+epochs: 16
+lr: 0.0003
+weight_decay: 5e-05
+patience: 4
+seed: 42
+use_amp: true
+horizon_scale_alpha: 0.75
+residual_beta_mm: 0.05
+temporal_mode: ssm
+shared_temporal: false
+no_temporal_mixer: false
+no_bounded_residual: false
+no_volatility_scale: false
+direct_displacement_head: false
+num_workers: 2
+pin_memory: true
+channels_last: true
+cache_pyramid: true
+compile_model: false

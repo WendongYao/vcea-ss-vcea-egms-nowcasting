@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Editors / OS
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Credentials / local env
+.env
+*.env
+egms_service_key.json
+token.json
+
+# Raw and derived data
+data/raw/
+data/extracted_2019_2023/
+data/processed/
+outputs/
+
+# Large model artifacts
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.npy
+
+# Manuscript build artifacts
+VCEASS-VCEA-manuscript/*.aux
+VCEASS-VCEA-manuscript/*.bbl
+VCEASS-VCEA-manuscript/*.blg
+VCEASS-VCEA-manuscript/*.fdb_latexmk
+VCEASS-VCEA-manuscript/*.fls
+VCEASS-VCEA-manuscript/*.log
+VCEASS-VCEA-manuscript/*.out
+VCEASS-VCEA-manuscript/*.synctex.gz
+VCEASS-VCEA-manuscript/bare_jrnl_new_sample4.pdf
+VCEASS-VCEA-manuscript/layout_pages_before/
+VCEASS-VCEA-manuscript/layout_pages_after/
+VCEASS-VCEA-manuscript/layout_pages_after_widthfix/
+
+# Temporary local reports
+*.tmp

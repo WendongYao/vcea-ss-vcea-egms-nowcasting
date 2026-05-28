@@ -1,0 +1,11 @@
+tile_id,tile_role,dominant_regime,num_points,num_epochs,valid_grid_ratio_64,valid_grid_ratio_128,regime_stable,regime_seasonal,regime_subsidence,regime_accelerating,regime_coseismic,regime_mixed,legacy_manifest_source
+E32N34,main6,mixed,138926,303,0.771728515625,0.697509765625,,,,,,,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\data_manifest.csv
+E32N35,main6,seasonal,185125,303,0.78564453125,0.75555419921875,,,,,,,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\data_manifest.csv
+E39N30,main6,subsidence,250830,302,0.955322265625,0.8070068359375,,,,,,,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\data_manifest.csv
+E44N23,main6,subsidence,170553,302,0.923583984375,0.7803955078125,,,,,,,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\data_manifest.csv
+E48N24,main6,coseismic,11911,302,0.1826171875,0.10552978515625,,,,,,,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\data_manifest.csv
+E58N17,main6,coseismic,50260,301,0.15185546875,0.125732421875,,,,,,,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\data_manifest.csv
+E37N42,external_locked_eval,mixed,39626,301,0.389404296875,0.33837890625,0.0695924764890282,0.0206896551724137,0.1442006269592476,0.1855799373040752,0.2369905956112852,0.3429467084639498,${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\external_tiles\external_tile_manifest.csv
+E45N51,external_locked_eval,mixed,69604,112,0.241455078125,0.1986083984375,0.1324570273003033,0.0020222446916076,0.0131445904954499,0.0414560161779575,0.1617795753286147,0.6491405460060667,${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\external_tiles\external_tile_manifest.csv
+E30N35,external_locked_eval,mixed,323481,302,0.764892578125,0.72625732421875,0.0427705075007979,0.0462815193105649,0.1519310564953718,0.1627832748164698,0.1276731567187998,0.4685604851579955,${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\external_tiles\external_tile_manifest.csv
+E42N21,external_locked_eval,mixed,261823,302,0.68896484375,0.63330078125,0.0336640680368533,0.0336640680368533,0.2512402551381998,0.1141034727143869,0.068036853295535,0.4992912827781715,${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\external_tiles\external_tile_manifest.csv

@@ -1,0 +1,9 @@
+Variant,Expert pool,Main-six Skill,External Skill,Stress ratio,Better tiles,Interpretation
+without_persistence,"Linear-Seasonal, M1, C3_opt",0.17625030757670587,0.33393996623307887,0.9701403863132965,4,external locked check
+without_C3_opt,"Persistence, Linear-Seasonal, M1",0.15769142796619087,0.3225651075289222,0.9781494754047453,4,external locked check
+VCEA_full,"Persistence, Linear-Seasonal, M1, C3_opt",0.1776329118299743,0.317246347403093,0.9741283274440994,4,external locked check
+without_M1,"Persistence, Linear-Seasonal, C3_opt",0.15463321485269685,0.3070808755445836,0.9781758551872903,4,external locked check
+only_kinematic,"Persistence, Linear-Seasonal",0.09083934269917844,0.29970886064454605,0.9803349825252194,4,external locked check
+uniform_expert_average,"Persistence, Linear-Seasonal, M1, C3_opt",-1.8054899285657646,0.26737418884412406,1.1221181511428469,4,external locked check
+only_neural,"M1, C3_opt",0.1265086642569768,0.1918103049220459,0.9826631932115996,4,external locked check
+without_linear_seasonal,"Persistence, M1, C3_opt",0.11171485228252077,0.17354412386318135,0.9874788111812036,2,external locked check

@@ -1,0 +1,31 @@
+﻿model_id: C2_M1_scalar
+gate_mode: sigmoid
+input_len: 16
+horizons:
+  - 1
+  - 3
+  - 5
+  - 10
+dim: 64
+depth: 1
+heads: 4
+mlp_dim: 128
+patch_size: 8
+temporal_patch: 1
+batch_size: 8
+epochs: 15
+lr: 0.0003
+weight_decay: 5e-05
+patience: 4
+seed: 42
+use_amp: true
+gate_bias: -2.0
+gate_use_descriptors: false
+skill_lambda: 0.0
+skill_margin: 0.0
+select_by_skill: false
+query_enabled: true
+residual_enabled: true
+gate_granularity: scalar
+fixed_gate_value: null
+num_workers: 0

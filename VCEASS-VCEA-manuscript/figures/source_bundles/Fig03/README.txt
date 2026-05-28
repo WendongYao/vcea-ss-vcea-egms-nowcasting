@@ -1,0 +1,1 @@
+No dedicated final figure exists; redraw from baseline and full-six horizon summaries.

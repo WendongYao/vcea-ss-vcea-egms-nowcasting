@@ -1,0 +1,32 @@
+﻿tile_id,tile_role,resolution,availability,data_source,split_path,supports_training,supports_locked_eval,note
+E32N34,main6,64,persisted_tensor,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E32N34\tensor_64.npz,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E32N34\split.json,True,False,
+E32N34,main6,128,persisted_tensor,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E32N34\tensor_128.npz,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E32N34\split.json,True,False,
+E32N34,main6,512,on_demand_from_raw_product,${PROJECT_ROOT}\data\extracted_2019_2023\E32N34,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E32N34\split.json,True,False,No persisted tensor cache in legacy layout; 512 experiments were generated on demand and may include transfer assumptions for C3-based experts.
+E32N35,main6,64,persisted_tensor,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E32N35\tensor_64.npz,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E32N35\split.json,True,False,
+E32N35,main6,128,persisted_tensor,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E32N35\tensor_128.npz,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E32N35\split.json,True,False,
+E32N35,main6,512,on_demand_from_raw_product,${PROJECT_ROOT}\data\extracted_2019_2023\E32N35,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E32N35\split.json,True,False,No persisted tensor cache in legacy layout; 512 experiments were generated on demand and may include transfer assumptions for C3-based experts.
+E39N30,main6,64,persisted_tensor,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E39N30\tensor_64.npz,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E39N30\split.json,True,False,
+E39N30,main6,128,persisted_tensor,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E39N30\tensor_128.npz,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E39N30\split.json,True,False,
+E39N30,main6,512,on_demand_from_raw_product,${PROJECT_ROOT}\data\extracted_2019_2023\E39N30,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E39N30\split.json,True,False,No persisted tensor cache in legacy layout; 512 experiments were generated on demand and may include transfer assumptions for C3-based experts.
+E44N23,main6,64,persisted_tensor,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E44N23\tensor_64.npz,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E44N23\split.json,True,False,
+E44N23,main6,128,persisted_tensor,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E44N23\tensor_128.npz,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E44N23\split.json,True,False,
+E44N23,main6,512,on_demand_from_raw_product,${PROJECT_ROOT}\data\extracted_2019_2023\E44N23,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E44N23\split.json,True,False,No persisted tensor cache in legacy layout; 512 experiments were generated on demand and may include transfer assumptions for C3-based experts.
+E48N24,main6,64,persisted_tensor,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E48N24\tensor_64.npz,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E48N24\split.json,True,False,
+E48N24,main6,128,persisted_tensor,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E48N24\tensor_128.npz,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E48N24\split.json,True,False,
+E48N24,main6,512,on_demand_from_raw_product,${PROJECT_ROOT}\data\extracted_2019_2023\E48N24,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E48N24\split.json,True,False,No persisted tensor cache in legacy layout; 512 experiments were generated on demand and may include transfer assumptions for C3-based experts.
+E58N17,main6,64,persisted_tensor,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E58N17\tensor_64.npz,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E58N17\split.json,True,False,
+E58N17,main6,128,persisted_tensor,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E58N17\tensor_128.npz,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E58N17\split.json,True,False,
+E58N17,main6,512,on_demand_from_raw_product,${PROJECT_ROOT}\data\extracted_2019_2023\E58N17,${PROJECT_ROOT}\data\processed\tgrs_2019_2023\E58N17\split.json,True,False,No persisted tensor cache in legacy layout; 512 experiments were generated on demand and may include transfer assumptions for C3-based experts.
+E30N35,external_locked_eval,64,locked_eval_from_raw_product,${PROJECT_ROOT}\data\extracted_2019_2023\E30N35,,False,True,
+E30N35,external_locked_eval,128,not_standardized_in_current_scope,,,False,False,External locked evaluation is frozen at 64x64 in the current paper scope.
+E30N35,external_locked_eval,512,not_standardized_in_current_scope,,,False,False,External locked evaluation is frozen at 64x64 in the current paper scope.
+E37N42,external_locked_eval,64,locked_eval_from_raw_product,${PROJECT_ROOT}\data\extracted_2019_2023\E37N42,,False,True,
+E37N42,external_locked_eval,128,not_standardized_in_current_scope,,,False,False,External locked evaluation is frozen at 64x64 in the current paper scope.
+E37N42,external_locked_eval,512,not_standardized_in_current_scope,,,False,False,External locked evaluation is frozen at 64x64 in the current paper scope.
+E42N21,external_locked_eval,64,locked_eval_from_raw_product,${PROJECT_ROOT}\data\extracted_2019_2023\E42N21,,False,True,
+E42N21,external_locked_eval,128,not_standardized_in_current_scope,,,False,False,External locked evaluation is frozen at 64x64 in the current paper scope.
+E42N21,external_locked_eval,512,not_standardized_in_current_scope,,,False,False,External locked evaluation is frozen at 64x64 in the current paper scope.
+E45N51,external_locked_eval,64,locked_eval_from_raw_product,${PROJECT_ROOT}\data\extracted_2019_2023\E45N51,,False,True,
+E45N51,external_locked_eval,128,not_standardized_in_current_scope,,,False,False,External locked evaluation is frozen at 64x64 in the current paper scope.
+E45N51,external_locked_eval,512,not_standardized_in_current_scope,,,False,False,External locked evaluation is frozen at 64x64 in the current paper scope.
+

@@ -1,0 +1,19 @@
+{
+  "dataset": "EGMS 2019-2023 Ortho U",
+  "role": "resolution_sensitivity",
+  "tiles": [
+    "E32N34",
+    "E39N30",
+    "E48N24"
+  ],
+  "resolutions": [
+    64,
+    128,
+    512
+  ],
+  "notes": [
+    "Resolution-family exact comparison is standardized on three diagnostic tiles.",
+    "64x64 remains the primary full-six paper setting.",
+    "512 exact aggregation rows may rely on 128 validation cache reuse and C3 transfer inference."
+  ]
+}

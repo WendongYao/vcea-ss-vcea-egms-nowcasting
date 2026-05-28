@@ -1,0 +1,170 @@
+{
+  "source_csv": "paper_assets_vcea_extras/tables_csv_original/E7_strong/table_E7_pan_europe_locked_results_by_tile.csv",
+  "comparison": "VCEA vs M1",
+  "tile_level": {
+    "n_tiles": 14,
+    "wins": 14,
+    "losses": 0,
+    "ties": 0,
+    "sign_test_n": 14,
+    "sign_test_pvalue_two_sided": 0.0001220703125,
+    "mean_gain": 0.1473563070590386,
+    "bootstrap_ci95_low": 0.08873811539872542,
+    "bootstrap_ci95_high": 0.21656354029640754,
+    "bootstrap_iterations": 10000,
+    "bootstrap_seed": 20260528,
+    "wilcoxon_statistic": 0.0,
+    "wilcoxon_pvalue_two_sided": 0.0001220703125
+  },
+  "per_horizon": [
+    {
+      "horizon": "t+1",
+      "n_tiles": 14,
+      "wins": 13,
+      "losses": 1,
+      "ties": 0,
+      "mean_gain": 0.035250685280347784,
+      "bootstrap_ci95_low": 0.01643092016299277,
+      "bootstrap_ci95_high": 0.056993248785224694,
+      "bootstrap_iterations": 10000,
+      "bootstrap_seed": 20260529
+    },
+    {
+      "horizon": "t+10",
+      "n_tiles": 14,
+      "wins": 13,
+      "losses": 1,
+      "ties": 0,
+      "mean_gain": 0.18546866105383103,
+      "bootstrap_ci95_low": 0.0969885952783543,
+      "bootstrap_ci95_high": 0.29034459571418764,
+      "bootstrap_iterations": 10000,
+      "bootstrap_seed": 20260530
+    },
+    {
+      "horizon": "t+3",
+      "n_tiles": 14,
+      "wins": 14,
+      "losses": 0,
+      "ties": 0,
+      "mean_gain": 0.17414349759341302,
+      "bootstrap_ci95_low": 0.10683539284523316,
+      "bootstrap_ci95_high": 0.2596727849097477,
+      "bootstrap_iterations": 10000,
+      "bootstrap_seed": 20260531
+    },
+    {
+      "horizon": "t+5",
+      "n_tiles": 14,
+      "wins": 14,
+      "losses": 0,
+      "ties": 0,
+      "mean_gain": 0.19456238430856262,
+      "bootstrap_ci95_low": 0.11059541243879062,
+      "bootstrap_ci95_high": 0.2956139269886726,
+      "bootstrap_iterations": 10000,
+      "bootstrap_seed": 20260532
+    }
+  ],
+  "tile_summary": [
+    {
+      "Tile": "E27N24",
+      "tile_gain_mean": 0.24328290194703775,
+      "horizon_count": 4,
+      "vcea_skill_mean": 0.24273364923680574,
+      "m1_skill_mean": -0.000549252710232
+    },
+    {
+      "Tile": "E31N16",
+      "tile_gain_mean": 0.033256901414687734,
+      "horizon_count": 4,
+      "vcea_skill_mean": 0.3550594810205192,
+      "m1_skill_mean": 0.3218025796058315
+    },
+    {
+      "Tile": "E34N39",
+      "tile_gain_mean": 0.11543322200581199,
+      "horizon_count": 4,
+      "vcea_skill_mean": 0.23851886192702368,
+      "m1_skill_mean": 0.12308563992121169
+    },
+    {
+      "Tile": "E39N23",
+      "tile_gain_mean": 0.07177232821595309,
+      "horizon_count": 4,
+      "vcea_skill_mean": 0.23960507313585572,
+      "m1_skill_mean": 0.16783274491990263
+    },
+    {
+      "Tile": "E40N31",
+      "tile_gain_mean": 0.2123295571194283,
+      "horizon_count": 4,
+      "vcea_skill_mean": 0.27117645779480204,
+      "m1_skill_mean": 0.058846900675373695
+    },
+    {
+      "Tile": "E44N30",
+      "tile_gain_mean": 0.2525122429936669,
+      "horizon_count": 4,
+      "vcea_skill_mean": 0.2724707542326811,
+      "m1_skill_mean": 0.019958511239014126
+    },
+    {
+      "Tile": "E44N43",
+      "tile_gain_mean": 0.4727716568316582,
+      "horizon_count": 4,
+      "vcea_skill_mean": 0.7260057674037724,
+      "m1_skill_mean": 0.2532341105721142
+    },
+    {
+      "Tile": "E48N26",
+      "tile_gain_mean": 0.0636400214651662,
+      "horizon_count": 4,
+      "vcea_skill_mean": 0.11421935137846267,
+      "m1_skill_mean": 0.05057932991329647
+    },
+    {
+      "Tile": "E48N32",
+      "tile_gain_mean": 0.15906064100793543,
+      "horizon_count": 4,
+      "vcea_skill_mean": 0.18951007344503573,
+      "m1_skill_mean": 0.030449432437100275
+    },
+    {
+      "Tile": "E49N22",
+      "tile_gain_mean": 0.02564562444502788,
+      "horizon_count": 4,
+      "vcea_skill_mean": 0.16609265872485243,
+      "m1_skill_mean": 0.14044703427982458
+    },
+    {
+      "Tile": "E49N44",
+      "tile_gain_mean": 0.2669152315454277,
+      "horizon_count": 4,
+      "vcea_skill_mean": 0.4320240185638847,
+      "m1_skill_mean": 0.16510878701845708
+    },
+    {
+      "Tile": "E55N14",
+      "tile_gain_mean": 0.015760298032995928,
+      "horizon_count": 4,
+      "vcea_skill_mean": 0.1577987321681339,
+      "m1_skill_mean": 0.14203843413513798
+    },
+    {
+      "Tile": "E57N25",
+      "tile_gain_mean": 0.04903954277745426,
+      "horizon_count": 4,
+      "vcea_skill_mean": 0.18144141150973248,
+      "m1_skill_mean": 0.13240186873227822
+    },
+    {
+      "Tile": "E58N26",
+      "tile_gain_mean": 0.0815681290242891,
+      "horizon_count": 4,
+      "vcea_skill_mean": 0.05483852584872253,
+      "m1_skill_mean": -0.026729603175566576
+    }
+  ],
+  "method_note": "Descriptive robustness audit over held-out tiles; not a population-level inference over all European deformation conditions."
+}

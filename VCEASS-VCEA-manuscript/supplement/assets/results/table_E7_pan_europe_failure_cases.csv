@@ -1,0 +1,6 @@
+﻿Tile,Horizon,Model,Broad region,Regime group,Coverage group,Skill_MSE mean,Gain vs M1,Gain/Loss vs VCEA,Stress ratio,Fallback rate,Failure reason,Likely cause note
+E44N43,t+10,SS-VCEA-COEA_q97.5,Northern/Nordic,mixed-general,higher-coverage,0.5239663323899364,0.17188243485929494,-0.4559212662902524,0.6898727182500068,0.513613534232091,high_fallback_rate,short_temporal_span
+E44N43,t+5,SS-VCEA-COEA_q97.5,Northern/Nordic,mixed-general,higher-coverage,0.4641427971262857,0.17992820829011863,-0.4961440465470859,0.7319259162925539,0.4086200168674396,high_fallback_rate,short_temporal_span
+E44N43,t+1,VCEA,Northern/Nordic,mixed-general,higher-coverage,0.11325831074243708,-0.030514435969336257,0.0,0.9416643611872056,0.008987575997885277,VCEA_not_better_than_M1,short_temporal_span
+E49N22,t+10,VCEA,Mediterranean/Tectonic,sparse-support,lower-coverage,0.30748874639614293,-0.03177138587402839,0.0,0.832146321054452,0.014156463167508635,VCEA_not_better_than_M1,low_coverage
+

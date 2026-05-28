@@ -1,0 +1,68 @@
+﻿version: infra_v2
+generated_at_utc: '2026-05-10T17:45:10.695247+00:00'
+entries:
+- cache_id: expert_persistence_main_r064
+  expert_name: Persistence
+  scope: main6
+  resolution: 64
+  generation_type: analytic_baseline
+  source_artifact: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\model_family_resolution_extension\family_resolution_quick_rows.csv
+- cache_id: expert_linear_seasonal_main_r064
+  expert_name: Linear-Seasonal
+  scope: main6
+  resolution: 64
+  generation_type: kinematic_baseline
+  source_artifact: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\model_family_resolution_extension\family_resolution_quick_rows.csv
+- cache_id: expert_m1_main_r064
+  expert_name: M1
+  scope: main6
+  resolution: 64
+  generation_type: trained_neural_backbone
+  source_artifact: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\act_v2\m1_suite\step1b_scalar_rows.csv
+- cache_id: expert_c3_opt_main_r064
+  expert_name: C3_opt
+  scope: main6
+  resolution: 64
+  generation_type: trained_neural_backbone
+  source_artifact: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\model_family_resolution_extension\family_resolution_quick_rows.csv
+- cache_id: expert_m1_main_r128
+  expert_name: M1
+  scope: resolution_family
+  resolution: 128
+  generation_type: trained_neural_backbone
+  source_artifact: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\model_family_resolution_extension\family_resolution_quick_rows.csv
+- cache_id: expert_c3_opt_main_r128
+  expert_name: C3_opt
+  scope: resolution_family
+  resolution: 128
+  generation_type: trained_neural_backbone
+  source_artifact: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\model_family_resolution_extension\family_resolution_quick_rows.csv
+- cache_id: expert_m1_main_r512
+  expert_name: M1
+  scope: resolution_family
+  resolution: 512
+  generation_type: trained_neural_backbone
+  source_artifact: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\model_family_resolution_extension\family_resolution_quick_rows.csv
+- cache_id: expert_c3_opt_main_transfer128to512
+  expert_name: C3_opt
+  scope: resolution_family
+  resolution: 512
+  generation_type: transfer_inference
+  train_resolution: 128
+  source_artifact: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\model_family_resolution_extension\family_resolution_report.md
+  notes: 512 C3 direct training hit bad allocation; 128->512 transfer inference was
+    used.
+- cache_id: expert_pool_persistence_linearseasonal_m1_c3_v1
+  expert_name: pool_persistence_linearseasonal_m1_c3_v1
+  scope: aggregation
+  resolution: mixed
+  generation_type: logical_pool
+  source_artifact: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\staticval_ea_study\final_vcea_weights.csv
+- cache_id: expert_pool_persistence_linearseasonal_m1_proxy_v1
+  expert_name: pool_persistence_linearseasonal_m1_proxy_v1
+  scope: aggregation_proxy
+  resolution: mixed
+  generation_type: logical_pool
+  source_artifact: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\resolution_sensitivity\resolution_64_128_512_summary.csv
+  notes: Proxy pool without C3 expert, used by StaticVal-PLM1 sensitivity package.
+

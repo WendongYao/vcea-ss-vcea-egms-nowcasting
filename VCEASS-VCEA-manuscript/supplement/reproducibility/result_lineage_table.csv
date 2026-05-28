@@ -1,0 +1,8 @@
+result_id,artifact_type,source_file,companion_file,expert_pool_or_rule,note
+main6_vcea_primary,table_row,outputs/tgrs_2019_2023/staticval_ea_study/final_aggregation_comparison.csv,,StaticVal_inverse_temp4p0_sh0p1_floor0p0,primary exact 64x64 main-six benchmark
+main6_ssvcea_threshold_sweep,table_row,paper_assets_vcea_extras/tables_csv_original/E1_E6/table_E6_ssvcea_threshold_sweep.csv,assets/results/threshold_diag_main6_validation.csv,SS-VCEA q97.5 per-horizon validation thresholds,validation-only threshold sweep
+external4_vcea,table_row,outputs/tgrs_2019_2023/confirmation/external_tiles/external_summary.csv,assets/splits/external4_locked_eval.json,frozen expert pool plus tile-local historical validation calibration,held-out external future evaluation
+e7_group_summary,table_row,paper_assets_vcea_extras/tables_csv_original/E7_strong/table_E7_pan_europe_group_summary.csv,assets/manifests/audit_E7_manifest.json,frozen expert pool plus tile-local historical validation calibration,14-tile European audit group summary
+e7_by_tile,table_row,paper_assets_vcea_extras/tables_csv_original/E7_strong/table_E7_pan_europe_locked_results_by_tile.csv,assets/manifests/table_E7_pan_europe_tile_metadata.csv,by-tile strong audit detail,source for statistical audit
+e7_statistical_audit,diagnostic_table,tables/table_E7_statistical_significance.csv,diagnostics/E7_significance_audit.json,bootstrap seed 20260528,computed from archived by-tile results only
+e7_horizon_gain_audit,diagnostic_table,tables/table_E7_horizon_gain_ci.csv,diagnostics/E7_significance_audit.json,bootstrap seeds 20260529-20260532,per-horizon audit computed from archived by-tile results only

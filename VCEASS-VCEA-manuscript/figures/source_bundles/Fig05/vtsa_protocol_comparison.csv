@@ -1,0 +1,10 @@
+Protocol,Mean Skill_MSE,Stress ratio,Note
+VCEA,0.1776329169016457,1.0463388663683806,static validation-calibrated aggregation
+COEA,0.1322463492657383,0.9959634393203765,audited delayed-feedback online update
+COEA_zero_delay_oracle,0.1419643407474638,0.9958822519863572,"mode=zero_delay_oracle, update_every=1, frozen=False"
+COEA_frozen_after_warm,0.1379727615821894,0.996484614711187,"mode=strict, update_every=1, frozen=True"
+COEA_update_every_5,0.1350099065345343,0.9962727131419752,"mode=strict, update_every=5, frozen=False"
+COEA_update_every_10,0.1342649629496602,0.9963783354988544,"mode=strict, update_every=10, frozen=False"
+COEA_update_every_3,0.1341125222520634,0.9961377687576636,"mode=strict, update_every=3, frozen=False"
+COEA_h_delay,0.1324149588453397,0.99594667636921,"mode=h_delay, update_every=1, frozen=False"
+COEA_strict,0.1322463493871838,0.9959634655945944,"mode=strict, update_every=1, frozen=False"

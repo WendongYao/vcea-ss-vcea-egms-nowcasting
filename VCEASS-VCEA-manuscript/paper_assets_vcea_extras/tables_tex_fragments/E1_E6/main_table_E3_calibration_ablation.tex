@@ -1,0 +1,19 @@
+% Source CSV: tables_csv_original/E1_E6/table_E3_calibration_ablation.csv
+\begin{table*}[t]
+\centering
+\footnotesize
+\begin{tabular}{llllllll}
+\toprule
+Aggregation & Calibration source & Tile-aware & Horizon-aware & Main-six Skill$_{\mathrm{MSE}}$ & External Skill$_{\mathrm{MSE}}$ & Stress ratio & Oracle gap \\
+\midrule
+Uniform average & uniform & 0.000 & 0.000 & -1.805 & 0.267 & 4.112 & 2.002 \\
+Global validation weights & validation & 0.000 & 0.000 & 0.129 & 0.281 & 1.051 & 0.067 \\
+Tile-only VCEA & validation & 1.000 & 0.000 & 0.154 & 0.255 & 1.046 & 0.042 \\
+Horizon-only VCEA & validation & 0.000 & 1.000 & 0.133 & 0.320 & 1.047 & 0.063 \\
+Full tile+horizon VCEA & validation & 1.000 & 1.000 & 0.178 & 0.317 & 1.046 & 0.019 \\
+Oracle test weights & test-oracle & 1.000 & 1.000 & 0.196 & 0.356 & 0.996 & 0.000 \\
+\bottomrule
+\end{tabular}
+\caption{Calibration ablation for validation-based expert aggregation. Full tile+horizon validation calibration yields the strongest main-six result and the smallest oracle gap, whereas uniform averaging is insufficient under the strong persistence baseline.}
+\label{tab:e3_calibration_ablation}
+\end{table*}

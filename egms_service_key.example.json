@@ -1,0 +1,6 @@
+{
+  "client_id": "your-client-id",
+  "user_id": "your-user-id",
+  "token_uri": "https://land.copernicus.eu/@@oauth2-token",
+  "private_key": "-----BEGIN RSA PRIVATE KEY-----\\n...\\n-----END RSA PRIVATE KEY-----\\n"
+}

@@ -1,0 +1,161 @@
+﻿{
+  "experiment_id": "E7_pan_europe_locked_audit_strong",
+  "created_at_utc": "2026-05-23T18:04:10.554528+00:00",
+  "status": "completed_strong_external_locked_audit",
+  "egms_statement": "鏁版嵁澹版槑锛氭湰杞户缁粺涓€浣跨敤 **EGMS 2019-2023 Ortho U**锛屾柊澧?external locked tiles 閫氳繃瀹樻柟 CLMS/EGMS API 鑾峰彇銆?,
+  "source_docs": {
+    "clms_api_download_docs": "https://eea.github.io/clms-api-docs/download.html",
+    "clms_api_auth_docs": "https://eea.github.io/clms-api-docs/authentication.html",
+    "egms_product_page": "https://land.copernicus.eu/en/products/european-ground-motion-service/egms-ortho",
+    "official_egms_api_notebook": "https://github.com/copernicus-land/egms-api"
+  },
+  "selection_policy": "post_hoc selected external locked audit; fixed after model/calibration/threshold freeze; chosen using only official API tile catalog metadata",
+  "selected_tile_count": 14,
+  "selected_tiles": [
+    "E39N23",
+    "E48N26",
+    "E40N31",
+    "E44N30",
+    "E48N32",
+    "E31N16",
+    "E55N14",
+    "E49N22",
+    "E57N25",
+    "E58N26",
+    "E44N43",
+    "E49N44",
+    "E27N24",
+    "E34N39"
+  ],
+  "selected_regions": [
+    "Alpine/Mountain",
+    "Central/Continental",
+    "Mediterranean/Southern",
+    "Mediterranean/Tectonic",
+    "Northern/Nordic",
+    "Northwest/Atlantic"
+  ],
+  "frozen_objects": {
+    "expert_pool": [
+      "Persistence",
+      "Linear-Seasonal",
+      "M1",
+      "C3_opt"
+    ],
+    "vcea_config": {
+      "model_id": "StaticVal_inverse_temp4p0_sh0p1_floor0p0",
+      "method": "inverse",
+      "temperature": 4.0,
+      "shrinkage": 0.1,
+      "m1_floor": 0.0
+    },
+    "ss_safe_target": "COEA",
+    "ss_percentile": 97.5,
+    "ss_thresholds": [
+      0.7517598271369934,
+      0.8297779560089111,
+      0.8662713170051575,
+      0.9856411814689636
+    ],
+    "coea_config": {
+      "model_id": "COEA_ewa_eta4p0_warm_floor50_tile_horizon",
+      "update_mode": "ewa",
+      "eta": 4.0,
+      "warm_start": true,
+      "m1_floor": 0.5,
+      "granularity": "tile_horizon"
+    }
+  },
+  "data_hashes": [
+    {
+      "tile_id": "E39N23",
+      "raw_zip_path": "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E39N23_100km_U_2019_2023_1.zip",
+      "raw_zip_sha256": "a9678c6dc260f1425936df109e6c19e5398ede70188416c0e0e3c72a2696ab41"
+    },
+    {
+      "tile_id": "E48N26",
+      "raw_zip_path": "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E48N26_100km_U_2019_2023_1.zip",
+      "raw_zip_sha256": "f84c2196b5d8b1f6c5616dd9497458d012bcb4bdfaddbbc6fd0a73593b8d7a11"
+    },
+    {
+      "tile_id": "E40N31",
+      "raw_zip_path": "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E40N31_100km_U_2019_2023_1.zip",
+      "raw_zip_sha256": "e7ac763350a63485204c71492d8a26c09485cda7f07cbfd619c13d232498cf02"
+    },
+    {
+      "tile_id": "E44N30",
+      "raw_zip_path": "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E44N30_100km_U_2019_2023_1.zip",
+      "raw_zip_sha256": "8f3f71fc7b62101cae3613a5101e4ec4f9b2fb763f43c6cb763f58d6409112b8"
+    },
+    {
+      "tile_id": "E48N32",
+      "raw_zip_path": "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E48N32_100km_U_2019_2023_1.zip",
+      "raw_zip_sha256": "93993e0d1e354569faf70ce574d8300b0f668d992c2376ead4ebb1e6a93f749c"
+    },
+    {
+      "tile_id": "E31N16",
+      "raw_zip_path": "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E31N16_100km_U_2019_2023_1.zip",
+      "raw_zip_sha256": "cee277d8a8c53a8241921553621992a62f86882a4a1b8142aa2e14ea2d153f65"
+    },
+    {
+      "tile_id": "E55N14",
+      "raw_zip_path": "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E55N14_100km_U_2019_2023_1.zip",
+      "raw_zip_sha256": "71c62aa2e0f830187a2034bf7ae0b2d0a1eaf4a60e35236ed046b80f3fd62413"
+    },
+    {
+      "tile_id": "E49N22",
+      "raw_zip_path": "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E49N22_100km_U_2019_2023_1.zip",
+      "raw_zip_sha256": "cd98562a453598582986f8a23550dc951e28222e0d4cf90a554ece7b4f97e0f3"
+    },
+    {
+      "tile_id": "E57N25",
+      "raw_zip_path": "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E57N25_100km_U_2019_2023_1.zip",
+      "raw_zip_sha256": "8c0f972343cc218b87cbe929fdd7b92300f58914836eaaddd90abf716e42c82a"
+    },
+    {
+      "tile_id": "E58N26",
+      "raw_zip_path": "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E58N26_100km_U_2019_2023_1.zip",
+      "raw_zip_sha256": "b8ed3a0c42b0fb0eab910a9c22f587eb95e4f3ca10371562de499ac2762b6f68"
+    },
+    {
+      "tile_id": "E44N43",
+      "raw_zip_path": "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E44N43_100km_U_2019_2023_1.zip",
+      "raw_zip_sha256": "55cc69e06f4cd593c267815ae2a9877c55371d698135480f7865c9b80a5bd3a4"
+    },
+    {
+      "tile_id": "E49N44",
+      "raw_zip_path": "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E49N44_100km_U_2019_2023_1.zip",
+      "raw_zip_sha256": "4d8c4586624d885fde454f52928f00b8960a84e6436dad4bdfb0ffda63ba434c"
+    },
+    {
+      "tile_id": "E27N24",
+      "raw_zip_path": "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E27N24_100km_U_2019_2023_1.zip",
+      "raw_zip_sha256": "e1066ed808c5d3b4d89288fc3627ce525631c2cdeb573fea3ac2a770b079366f"
+    },
+    {
+      "tile_id": "E34N39",
+      "raw_zip_path": "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E34N39_100km_U_2019_2023_1.zip",
+      "raw_zip_sha256": "f03416ec02b0c867260bc8a901db638a6461a28298c91cc48641a5c5f588d00f"
+    }
+  ],
+  "git_commit": "fatal: not a git repository (or any of the parent directories): .git",
+  "script_path": "${PROJECT_ROOT}\\tgrs_experiments\\vcea_e7_pan_europe_audit_strong.py",
+  "output_root": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\E7_pan_europe_locked_audit_strong",
+  "downloaded_files": [
+    "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E34N39_100km_U_2019_2023_1.zip",
+    "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E27N24_100km_U_2019_2023_1.zip",
+    "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E40N31_100km_U_2019_2023_1.zip",
+    "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E44N30_100km_U_2019_2023_1.zip",
+    "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E48N32_100km_U_2019_2023_1.zip",
+    "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E44N43_100km_U_2019_2023_1.zip",
+    "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E49N44_100km_U_2019_2023_1.zip",
+    "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E31N16_100km_U_2019_2023_1.zip",
+    "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E55N14_100km_U_2019_2023_1.zip",
+    "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E39N23_100km_U_2019_2023_1.zip",
+    "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E48N26_100km_U_2019_2023_1.zip",
+    "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E49N22_100km_U_2019_2023_1.zip",
+    "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E57N25_100km_U_2019_2023_1.zip",
+    "${PROJECT_ROOT}\\data\\raw\\EGMS_L3_E58N26_100km_U_2019_2023_1.zip"
+  ]
+}
+

@@ -1,0 +1,11 @@
+Metric,Tile,Variant,Velocity threshold [mm/yr],Trend R2 threshold,Moving pixel count,Value,Event date,Peak early-post RMSE [mm],Late-post median RMSE [mm],Pre-event median RMSE [mm],Definition
+velocity_sign_consistency_redefined,E32N34,A0,1.0,0.6,106.0,0.595597505569458,,,,,
+velocity_sign_consistency_redefined,E32N34,A6,1.0,0.6,106.0,0.3926100730895996,,,,,
+velocity_sign_consistency_redefined,E32N35,A0,1.0,0.6,28.0,0.7994047403335571,,,,,
+velocity_sign_consistency_redefined,E32N35,A6,1.0,0.6,28.0,0.2827380895614624,,,,,
+velocity_sign_consistency_redefined,E39N30,A0,1.0,0.6,174.0,0.39626437425613403,,,,,
+velocity_sign_consistency_redefined,E39N30,A6,1.0,0.6,174.0,0.45220306515693665,,,,,
+velocity_sign_consistency_redefined,E44N23,A0,1.0,0.6,1700.0,0.7223333120346069,,,,,
+velocity_sign_consistency_redefined,E44N23,A6,1.0,0.6,1700.0,0.5833039283752441,,,,,
+post_event_recovery_ratio,E48N24,A6,,,,0.4004275027227835,2021-01-26,1.2517313957214355,0.7505037188529968,,post-only fallback
+post_event_recovery_ratio,E58N17,A6,,,,0.0,2020-11-03,0.6744259595870972,0.9634554386138916,,post-only fallback

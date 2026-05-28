@@ -1,0 +1,17 @@
+% Source CSV: tables_csv_original/E7_strong/table_E7_pan_europe_failure_cases.csv
+\begin{table*}[t]
+\centering
+\footnotesize
+\begin{tabular}{lllllllllllll}
+\toprule
+Tile & Horizon & Model & Broad region & Regime group & Coverage group & Skill\_MSE mean & Gain vs M1 & Gain/loss vs VCEA & Stress ratio & Fallback rate & Failure reason & Likely cause note \\
+\midrule
+E44N43 & t+10 & SS-VCEA-COEA\_q97.5 & Northern/Nordic & mixed-general & higher-coverage & 0.524 & 0.172 & -0.456 & 0.690 & 0.514 & high\_fallback\_rate & short\_temporal\_span \\
+E44N43 & t+5 & SS-VCEA-COEA\_q97.5 & Northern/Nordic & mixed-general & higher-coverage & 0.464 & 0.180 & -0.496 & 0.732 & 0.409 & high\_fallback\_rate & short\_temporal\_span \\
+E44N43 & t+1 & VCEA & Northern/Nordic & mixed-general & higher-coverage & 0.113 & -0.031 & 0.000 & 0.942 & 0.009 & VCEA\_not\_better\_than\_M1 & short\_temporal\_span \\
+E49N22 & t+10 & VCEA & Mediterranean/Tectonic & sparse-support & lower-coverage & 0.307 & -0.032 & 0.000 & 0.832 & 0.014 & VCEA\_not\_better\_than\_M1 & low\_coverage \\
+\bottomrule
+\end{tabular}
+\caption{Failure cases in the strong pan-European frozen audit. The negative or high-fallback cases are localized, notably including the short-temporal-span E44N43 cases and the low-coverage E49N22 case, rather than indicating a systematic collapse of VCEA across held-out regions.}
+\label{tab:e7_strong_failure_cases}
+\end{table*}

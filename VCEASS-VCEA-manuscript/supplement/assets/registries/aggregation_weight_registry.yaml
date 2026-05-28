@@ -1,0 +1,81 @@
+﻿version: infra_v2
+generated_at_utc: '2026-05-10T17:45:10.697896+00:00'
+entries:
+- aggregation_weight_id: agg_vcea_exact_r64
+  model_name: VCEA_exact
+  aggregation_type: exact
+  resolution: 64
+  expert_pool_id: pool_persistence_linearseasonal_m1_c3_v1
+  calibration_source: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\staticval_ea_study\final_vcea_weights.csv
+  selection_protocol: validation-calibrated static weighting
+- aggregation_weight_id: agg_vcea_external_locked_r64
+  model_name: VCEA_exact
+  aggregation_type: exact
+  resolution: 64
+  expert_pool_id: pool_persistence_linearseasonal_m1_c3_v1
+  calibration_source: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\external_tiles\freeze_manifest.yaml
+  selection_protocol: frozen four-expert static validation weighting on external tile
+- aggregation_weight_id: agg_coea_exact_r64
+  model_name: COEA_exact
+  aggregation_type: exact
+  resolution: 64
+  expert_pool_id: pool_persistence_linearseasonal_m1_c3_v1
+  calibration_source: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\act_v7\finalization\audited_quick_val_grid.csv
+  selection_protocol: causal delayed-feedback online aggregation
+- aggregation_weight_id: agg_crcf_coea_r64
+  model_name: CRCF-COEA
+  aggregation_type: exact
+  resolution: 64
+  expert_pool_id: pool_persistence_linearseasonal_m1_c3_v1
+  calibration_source: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\act_v7\finalization\audited_crcf_thresholds.csv
+  selection_protocol: COEA with validation-calibrated risk fallback
+- aggregation_weight_id: agg_vcea_exact_r128
+  model_name: VCEA_exact
+  aggregation_type: exact
+  resolution: 128
+  expert_pool_id: pool_persistence_linearseasonal_m1_c3_v1
+  calibration_source: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\model_family_resolution_extension\aggregation_weight_summary.csv
+  selection_protocol: static validation weighting
+- aggregation_weight_id: agg_coea_exact_r128
+  model_name: COEA_exact
+  aggregation_type: exact
+  resolution: 128
+  expert_pool_id: pool_persistence_linearseasonal_m1_c3_v1
+  calibration_source: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\model_family_resolution_extension\aggregation_weight_summary.csv
+  selection_protocol: online aggregation traced from family-resolution extension
+- aggregation_weight_id: agg_vcea_exact_r512
+  model_name: VCEA_exact
+  aggregation_type: exact
+  resolution: 512
+  expert_pool_id: pool_persistence_linearseasonal_m1_c3_v1
+  calibration_source: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\model_family_resolution_extension\family_resolution_report.md
+  selection_protocol: static validation weighting with 128 validation cache reuse
+- aggregation_weight_id: agg_coea_exact_r512
+  model_name: COEA_exact
+  aggregation_type: exact
+  resolution: 512
+  expert_pool_id: pool_persistence_linearseasonal_m1_c3_v1
+  calibration_source: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\model_family_resolution_extension\family_resolution_report.md
+  selection_protocol: online aggregation with 128 validation cache reuse
+- aggregation_weight_id: agg_staticval_proxy_r64
+  model_name: StaticVal-PLM1
+  aggregation_type: proxy
+  resolution: 64
+  expert_pool_id: pool_persistence_linearseasonal_m1_proxy_v1
+  calibration_source: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\external_tiles\freeze_manifest.yaml
+  selection_protocol: proxy static weighting
+- aggregation_weight_id: agg_staticval_proxy_r128
+  model_name: StaticVal-PLM1
+  aggregation_type: proxy
+  resolution: 128
+  expert_pool_id: pool_persistence_linearseasonal_m1_proxy_v1
+  calibration_source: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\external_tiles\freeze_manifest.yaml
+  selection_protocol: proxy static weighting
+- aggregation_weight_id: agg_staticval_proxy_r512
+  model_name: StaticVal-PLM1
+  aggregation_type: proxy
+  resolution: 512
+  expert_pool_id: pool_persistence_linearseasonal_m1_proxy_v1
+  calibration_source: ${PROJECT_ROOT}\outputs\tgrs_2019_2023\confirmation\external_tiles\freeze_manifest.yaml
+  selection_protocol: proxy static weighting
+

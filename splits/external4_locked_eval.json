@@ -1,0 +1,16 @@
+{
+  "dataset": "EGMS 2019-2023 Ortho U",
+  "role": "external_locked_eval",
+  "locked_after_mainline_freeze": true,
+  "used_for_architecture_selection": false,
+  "tiles": [
+    "E30N35",
+    "E37N42",
+    "E42N21",
+    "E45N51"
+  ],
+  "notes": [
+    "External tiles serve as locked evaluation only.",
+    "Historical exact VCEA external runs used frozen expert definitions with tile-local validation calibration, not architecture search."
+  ]
+}

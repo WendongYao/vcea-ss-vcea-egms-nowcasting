@@ -1,0 +1,28 @@
+﻿model_name,tile_role,resolution,is_proxy,transfer_inference,train_resolution,calibration_resolution,test_resolution,aggregation_type,notes
+C3_opt,external_locked_eval,64,False,False,64,64,64,none,external locked evaluation; not used for architecture selection
+C3_opt,resolution_sensitivity,64,False,False,64,64,64,none,
+C3_opt,resolution_sensitivity,128,False,False,128,128,128,none,
+C3_opt,resolution_sensitivity,512,False,True,128,128,512,none,512 uses 128->512 transfer inference for C3-derived branch
+COEA_exact,main6,64,False,False,64,64,64,exact,Aggregation-only runtime; expert generation cost excluded in historical audited_v7 artifact.
+COEA_exact,main6_aggregate,64,False,False,64,64,64,exact,
+COEA_exact,resolution_sensitivity,64,False,False,64,64,64,exact,
+COEA_exact,resolution_sensitivity,128,False,False,128,128,128,exact,
+COEA_exact,resolution_sensitivity,512,False,True,128,128,512,exact,512 uses 128->512 transfer inference for C3-derived branch; 512 aggregation reuses 128 validation cache for calibration
+M0,resolution_sensitivity,64,False,False,64,64,64,none,
+M0,resolution_sensitivity,128,False,False,128,128,128,none,
+M0,resolution_sensitivity,512,False,False,512,512,512,none,
+M1,external_locked_eval,64,False,False,64,64,64,none,external locked evaluation; not used for architecture selection
+M1,main6,64,False,False,64,64,64,none,Primary full-six M1 row from act_v2 m1_suite.
+M1,main6_aggregate,64,False,False,64,64,64,none,
+M1,resolution_sensitivity,64,False,False,64,64,64,none,
+M1,resolution_sensitivity,128,False,False,128,128,128,none,
+M1,resolution_sensitivity,512,False,False,512,512,512,none,
+StaticVal-PLM1,resolution_sensitivity,64,True,False,64,64,64,proxy,proxy aggregation; not exact four-expert end-to-end result
+StaticVal-PLM1,resolution_sensitivity,128,True,False,128,128,128,proxy,proxy aggregation; not exact four-expert end-to-end result
+StaticVal-PLM1,resolution_sensitivity,512,True,False,512,128,512,proxy,proxy aggregation; not exact four-expert end-to-end result
+VCEA_exact,external_locked_eval,64,False,False,64,64,64,exact,external locked evaluation; not used for architecture selection
+VCEA_exact,main6_aggregate,64,False,False,64,64,64,exact,full-six primary VCEA available only as aggregate summary in historical artifact
+VCEA_exact,resolution_sensitivity,64,False,False,64,64,64,exact,
+VCEA_exact,resolution_sensitivity,128,False,False,128,128,128,exact,
+VCEA_exact,resolution_sensitivity,512,False,True,128,128,512,exact,512 uses 128->512 transfer inference for C3-derived branch; 512 aggregation reuses 128 validation cache for calibration
+

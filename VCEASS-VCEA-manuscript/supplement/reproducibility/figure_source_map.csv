@@ -1,0 +1,10 @@
+figure_id,section,source_file,note
+Fig. 2 skill-motivation schematic,Methods,figures/final/Fig02_skill_metric_motivation.pdf,metric intuition figure
+Fig. 3 VCEA / SS-VCEA method overview,Methods,figures/final/Fig04_vcea_ssvcea_method.pdf,validation-calibrated aggregation and conservative fallback wrapper
+Fig. 4 split-protocol audit,Results,paper_assets_vcea_extras/figures/E1/fig_E1_skill_delta_by_tile.png,gain under target-time and stricter split protocols
+Fig. 5 expert-weight heatmap,Results,paper_assets_vcea_extras/figures/E2/fig_E2_expert_weights_heatmap.png,main-six validation-calibrated weights
+Fig. 6 calibration-ablation summary,Results,paper_assets_vcea_extras/figures/E3/fig_E3_calibration_barplot.png,tile/horizon calibration comparison
+Fig. 7 skill-stress frontier,Results,paper_assets_vcea_extras/figures/E6/fig_E6_skill_stress_frontier.png,validation-only SS-VCEA operating-point sweep
+Fig. 8 14-tile audit map,Results,paper_assets_vcea_extras/figures/E7_strong/fig_E7_pan_europe_tile_map.png,geographically stratified held-out audit tiles
+Fig. 9 region-stratified audit summary,Results,paper_assets_vcea_extras/figures/E7_strong/fig_E7_skill_by_region.png,broad-region future-evaluation summary
+Fig. 10 coverage-dependence audit,Results,paper_assets_vcea_extras/figures/E7_strong/fig_E7_skill_vs_coverage.png,coverage-group dependence

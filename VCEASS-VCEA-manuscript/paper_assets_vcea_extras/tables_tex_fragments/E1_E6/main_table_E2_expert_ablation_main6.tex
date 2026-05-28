@@ -1,0 +1,21 @@
+% Source CSV: tables_csv_original/E1_E6/table_E2_expert_ablation_main6.csv
+\begin{table*}[t]
+\centering
+\footnotesize
+\begin{tabular}{lllllll}
+\toprule
+Variant & Expert pool & Main-six Skill$_{\mathrm{MSE}}$ & External Skill$_{\mathrm{MSE}}$ & Stress ratio & Better tiles & Interpretation \\
+\midrule
+VCEA\_full & Persistence, Linear-Seasonal, M1, C3\_opt & 0.178 & 0.317 & 1.046 & 6.000 & full pool reference \\
+without\_persistence & Linear-Seasonal, M1, C3\_opt & 0.176 & 0.334 & 1.088 & 5.000 & ablation / diagnostic \\
+without\_C3\_opt & Persistence, Linear-Seasonal, M1 & 0.158 & 0.323 & 1.093 & 5.000 & ablation / diagnostic \\
+without\_M1 & Persistence, Linear-Seasonal, C3\_opt & 0.155 & 0.307 & 1.082 & 4.000 & ablation / diagnostic \\
+only\_neural & M1, C3\_opt & 0.127 & 0.192 & 0.995 & 6.000 & ablation / diagnostic \\
+without\_linear\_seasonal & Persistence, M1, C3\_opt & 0.112 & 0.174 & 0.996 & 5.000 & ablation / diagnostic \\
+only\_kinematic & Persistence, Linear-Seasonal & 0.091 & 0.300 & 1.196 & 3.000 & ablation / diagnostic \\
+uniform\_expert\_average & Persistence, Linear-Seasonal, M1, C3\_opt & -1.805 & 0.267 & 4.112 & 3.000 & ablation / diagnostic \\
+\bottomrule
+\end{tabular}
+\caption{Expert-pool ablation on the main-six setting. The full VCEA pool outperforms removal variants, while uniform averaging is not a reliable substitute. The ablation supports the interpretation that persistence, linear-seasonal structure, and neural experts provide complementary information under strong persistence baselines.}
+\label{tab:e2_expert_ablation_main6}
+\end{table*}

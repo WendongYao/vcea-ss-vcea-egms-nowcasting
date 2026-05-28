@@ -1,0 +1,16 @@
+% Source CSV: tables_csv_original/E1_E6/table_E1_leakage_audit.csv
+\begin{table*}[t]
+\centering
+\scriptsize
+\begin{tabular}{llllllllll}
+\toprule
+Protocol & Window rule & Train windows & Val windows & Test windows & VCEA Skill$_{\mathrm{MSE}}$ & M1 Skill$_{\mathrm{MSE}}$ & VCEA gain vs M1 & SS-VCEA stress ratio & Conclusion \\
+\midrule
+Target-time assignment & 原始 target-time protocol：按目标时刻归属 split，history 允许跨 boundary，但不访问目标之后的时间帧。 & 1117.000 & 120.000 & 306.000 & 0.178 & 0.078 & 0.099 & 0.992 & positive gain retained \\
+Full-window containment & history window 与所有 target horizon 均需完整落在同一 split。 & 1117.000 & 30.000 & 216.000 & 0.159 & 0.080 & 0.079 & 1.152 & positive gain retained \\
+Gap-buffer (10 frames) & 在 split boundary 后增加 10 帧缓冲，窗口仍按 target-time 归属；这是对 full retrain 之外的更严格审计。 & 1057.000 & 60.000 & 246.000 & 0.170 & 0.085 & 0.085 & 1.133 & positive gain retained \\
+\bottomrule
+\end{tabular}
+\caption{Leakage-audit comparison across the target-time assignment, full-window containment, and gap-buffer protocols. VCEA retains a positive gain over M1 under stricter split rules, although the number of admissible windows decreases and the margin is reduced. This supports the interpretation that the aggregation advantage is not an artifact of target-time assignment.}
+\label{tab:e1_leakage_audit}
+\end{table*}

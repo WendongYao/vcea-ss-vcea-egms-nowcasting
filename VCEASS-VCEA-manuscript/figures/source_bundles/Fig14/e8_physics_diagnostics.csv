@@ -1,0 +1,13 @@
+Metric,Tile,Value,Regime
+velocity_sign_consistency,E32N34,0.40230411291122437,
+sign_conflict_rate,E32N34,0.5976958870887756,
+unrealistic_jump_rate,E32N34,0.0,stable
+unrealistic_jump_rate,E32N34,0.0015151515151515152,seasonal
+unrealistic_jump_rate,E32N34,0.00046816479400749064,subsidence
+unrealistic_jump_rate,E32N34,0.0005446623093681918,accelerating
+unrealistic_jump_rate,E32N34,0.047099156118143456,coseismic
+unrealistic_jump_rate,E32N34,0.0,mixed
+post_event_realignment_time,E48N24,116,
+post_event_realignment_time,E58N17,130,
+permutation_base_rmse,E32N34,0.5285941362380981,
+permutation_note,E32N34,inference-only feature corruption used,

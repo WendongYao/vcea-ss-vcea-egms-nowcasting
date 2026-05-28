@@ -1,0 +1,21 @@
+% Source CSV: tables_csv_original/E1_E6/table_E5_external_regime_audit.csv
+\begin{table*}[t]
+\centering
+\scriptsize
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{llrrrrrp{0.25\textwidth}p{0.11\textwidth}}
+\toprule
+External group & Tile & Dominant regime & Valid coverage & VCEA Skill$_{\mathrm{MSE}}$ & M1 Skill$_{\mathrm{MSE}}$ & Gain & Limitation note & Tiles \\
+\midrule
+lower\_coverage & E37N42 & mixed & 0.389404296875 & 0.2197397962206353 & 0.1714772054294463 & 0.0482625907911889 & finite external locked set; dominant regime remains mixed & -- \\
+lower\_coverage & E45N51 & mixed & 0.241455078125 & 0.3478463412414774 & 0.0537516461687443 & 0.294094695072733 & finite external locked set; dominant regime remains mixed & -- \\
+higher\_coverage & E30N35 & mixed & 0.764892578125 & 0.4278295802878514 & 0.3422243811731981 & 0.0856051991146533 & finite external locked set; dominant regime remains mixed & -- \\
+higher\_coverage & E42N21 & mixed & 0.68896484375 & 0.2735696718624078 & 0.0741594410320832 & 0.1994102308303245 & finite external locked set; dominant regime remains mixed & -- \\
+higher\_coverage & -- & mixed & 0.7269287109375 & 0.3506996260751296 & 0.2081919111026407 & 0.1425077149724889 & coverage-stratified audit only; no new external tiles added & E30N35,E42N21 \\
+lower\_coverage & -- & mixed & 0.3154296875 & 0.2837930687310563 & 0.1126144257990953 & 0.171178642931961 & coverage-stratified audit only; no new external tiles added & E37N42,E45N51 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\caption{Original external audit grouped by coverage and dominant-regime notes. The gains are not explained solely by valid coverage, supporting the interpretation that external transfer is not purely a coverage artifact.}
+\label{tab:e5_external_audit}
+\end{table*}

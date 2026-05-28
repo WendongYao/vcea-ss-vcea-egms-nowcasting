@@ -1,0 +1,44 @@
+field,type,required,description
+experiment_id,string,True,Unique migrated experiment row id
+source_artifact,string,True,Historical source artifact file
+granularity,string,True,raw_horizon_seed / summary_horizon / summary_model
+seed_scope,string,True,raw / aggregate_mean_std / aggregate_model
+tile_id,string,True,Tile id or ALL_MAIN6 aggregate token
+tile_role,string,True,main6 / external_locked_eval / resolution_sensitivity / main6_aggregate
+resolution,integer,True,64 / 128 / 512
+model_name,string,True,Normalized model name
+source_model_name,string,True,Original historical label before normalization
+model_family,string,True,single_backbone / static_aggregation / online_aggregation / baseline
+expert_pool_id,string,False,Referenced expert pool id for aggregation models
+aggregation_type,string,True,none / exact / proxy
+is_proxy,boolean,True,Whether row is based on a proxy aggregation
+train_resolution,integer_or_blank,True,Resolution used to train the relevant expert/model
+calibration_resolution,integer_or_blank,True,Resolution used for validation calibration
+test_resolution,integer,True,Resolution used at evaluation time
+transfer_inference,boolean,True,"Whether test-time transfer was used, e.g. 128->512"
+phase,string,False,test / confirmation_resolution / external_locked / aggregate
+horizon,string,True,t+1 / t+3 / t+5 / t+10 / all
+seed,string,True,Seed id or aggregate token
+regime,string,False,Dominant regime label where available
+skill_mse,float,True,Primary Skill_MSE metric
+skill_rmse,float_or_blank,False,Skill_RMSE if available
+rmse_mm,float_or_blank,False,RMSE in mm
+mae_mm,float_or_blank,False,MAE in mm
+ssim,float_or_blank,False,SSIM where available
+acc_1mm,float_or_blank,False,Accuracy within 1 mm
+acc_0_5mm,float_or_blank,False,Accuracy within 0.5 mm
+stress_ratio,float_or_blank,False,RMSE / persistence RMSE or worst stress ratio in summaries
+persistence_rmse_mm,float_or_blank,False,Persistence RMSE companion
+linear_seasonal_rmse_mm,float_or_blank,False,Linear-seasonal RMSE companion
+hotspot_skill,float_or_blank,False,Hotspot Skill_MSE diagnostic
+boundary_error,float_or_blank,False,Boundary gradient RMSE diagnostic
+runtime_total_seconds,float_or_blank,False,End-to-end runtime where available
+runtime_infer_seconds,float_or_blank,False,Inference runtime where available
+runtime_aggregation_only_seconds,float_or_blank,False,Aggregation-only runtime for aggregation models
+peak_memory_mb,float_or_blank,False,Peak GPU memory where available
+param_count,float_or_blank,False,Parameter count where available
+cache_size_bytes,float_or_blank,False,Reserved field for future cache accounting
+calibration_source,string_or_blank,False,Source artifact for validation calibration
+expert_cache_id,string_or_blank,False,Referenced expert cache registry id
+aggregation_weight_id,string_or_blank,False,Referenced aggregation weight registry id
+notes,string_or_blank,False,"Caveats such as proxy, transfer, calibration reuse"

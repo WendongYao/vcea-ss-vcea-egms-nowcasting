@@ -1,0 +1,1 @@
+Existing selected tile-horizon heatmap asset; likely needs panel extraction.

@@ -1,0 +1,7 @@
+External group,Tile,Dominant regime,Valid coverage,VCEA Skill,M1 Skill,Gain,Limitation note,Tiles
+lower_coverage,E37N42,mixed,0.389404296875,0.21973979622063533,0.17147720542944636,0.04826259079118897,finite external locked set; dominant regime remains mixed,
+lower_coverage,E45N51,mixed,0.241455078125,0.3478463412414774,0.05375164616874435,0.29409469507273306,finite external locked set; dominant regime remains mixed,
+higher_coverage,E30N35,mixed,0.764892578125,0.42782958028785145,0.34222438117319814,0.08560519911465331,finite external locked set; dominant regime remains mixed,
+higher_coverage,E42N21,mixed,0.68896484375,0.2735696718624078,0.07415944103208327,0.19941023083032455,finite external locked set; dominant regime remains mixed,
+higher_coverage,,mixed,0.7269287109375,0.3506996260751296,0.2081919111026407,0.14250771497248893,coverage-stratified audit only; no new external tiles added,"E30N35,E42N21"
+lower_coverage,,mixed,0.3154296875,0.28379306873105636,0.11261442579909536,0.171178642931961,coverage-stratified audit only; no new external tiles added,"E37N42,E45N51"

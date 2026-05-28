@@ -1,0 +1,484 @@
+﻿{
+  "generated_at": "2026-05-23T20:11:56.838280+00:00",
+  "output_root": "${PROJECT_ROOT}\\paper_assets_vcea_extras",
+  "tables_processed": 14,
+  "figures_processed": 18,
+  "missing_files": [],
+  "missing_tables_in_tex": [],
+  "missing_figures_in_tex": [],
+  "duplicate_labels": [],
+  "compile_warning": "No LaTeX engine (`latexmk`, `pdflatex`, `xelatex`, or `tectonic`) is available in PATH; syntax check file was generated but not compiled.",
+  "assets": [
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\tables\\table_E1_leakage_audit.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E1_E6\\table_E1_leakage_audit.csv",
+      "sha256": "69c31e8cf2063a430d5e95f62c51e95a556295eb4cdddd60113d9ca48c979ef4",
+      "file_size": 878,
+      "asset_type": "table_csv",
+      "experiment_id": "E1",
+      "intended_location": "main_text",
+      "short_description": "Leakage audit protocols and resulting VCEA/M1 skill comparison."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E1_E6\\table_E1_leakage_audit.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_tex_fragments\\E1_E6\\main_table_E1_leakage_audit.tex",
+      "sha256": "554397eef8ddc087242f6c90045fd6f2270660bc3f9360d555e22870ae4276eb",
+      "file_size": 1475,
+      "asset_type": "tex_fragment",
+      "experiment_id": "E1",
+      "intended_location": "main_text",
+      "short_description": "LaTeX fragment generated from table_E1_leakage_audit.csv."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\tables\\table_E2_expert_ablation_external.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E1_E6\\table_E2_expert_ablation_external.csv",
+      "sha256": "3cbcfc179f6e281a8c765b946bfa79d73e56e946e1548fbc8d179d5ad44fddd9",
+      "file_size": 1150,
+      "asset_type": "table_csv",
+      "experiment_id": "E2",
+      "intended_location": "appendix",
+      "short_description": "Expert-pool ablation on the original external evaluation set."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E1_E6\\table_E2_expert_ablation_external.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_tex_fragments\\E1_E6\\appendix_table_E2_expert_ablation_external.tex",
+      "sha256": "ab066f31d74e99d0f667cdd70a4e62fa94fbf11baa55a5652bcd1698e3aa1d7f",
+      "file_size": 1752,
+      "asset_type": "tex_fragment",
+      "experiment_id": "E2",
+      "intended_location": "appendix",
+      "short_description": "LaTeX fragment generated from table_E2_expert_ablation_external.csv."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\tables\\table_E2_expert_ablation_main6.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E1_E6\\table_E2_expert_ablation_main6.csv",
+      "sha256": "317936bcc4948290d8b0e37b8bd9ad1d55aef35e35b1eb40776fe8c147745d84",
+      "file_size": 1146,
+      "asset_type": "table_csv",
+      "experiment_id": "E2",
+      "intended_location": "main_text",
+      "short_description": "Expert-pool ablation on the main-six setting."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E1_E6\\table_E2_expert_ablation_main6.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_tex_fragments\\E1_E6\\main_table_E2_expert_ablation_main6.tex",
+      "sha256": "64dcde832ed07692a65018921bd7d3d78761f3f9b9ba73890fb4627ba00f1738",
+      "file_size": 1610,
+      "asset_type": "tex_fragment",
+      "experiment_id": "E2",
+      "intended_location": "main_text",
+      "short_description": "LaTeX fragment generated from table_E2_expert_ablation_main6.csv."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\tables\\table_E3_calibration_ablation.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E1_E6\\table_E3_calibration_ablation.csv",
+      "sha256": "130ff7f429c4c0ff8b4b876717cae520d0428ebd3e8dbf3efd5516a246526113",
+      "file_size": 819,
+      "asset_type": "table_csv",
+      "experiment_id": "E3",
+      "intended_location": "main_text",
+      "short_description": "Calibration ablation across uniform, global, and tile-horizon weighting strategies."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E1_E6\\table_E3_calibration_ablation.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_tex_fragments\\E1_E6\\main_table_E3_calibration_ablation.tex",
+      "sha256": "4140fcd4b0e5a69310f31f8796e89e8a55cf2b6bcf6176a3eefde8b1946976f2",
+      "file_size": 1177,
+      "asset_type": "tex_fragment",
+      "experiment_id": "E3",
+      "intended_location": "main_text",
+      "short_description": "LaTeX fragment generated from table_E3_calibration_ablation.csv."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\tables\\table_E4_blocked_validation.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E1_E6\\table_E4_blocked_validation.csv",
+      "sha256": "6f3ae2d64e1599195503cdaafd393462ec02f6c8c0e63512d4e91970b6dd2449",
+      "file_size": 7237,
+      "asset_type": "table_csv",
+      "experiment_id": "E4",
+      "intended_location": "appendix",
+      "short_description": "Blocked-validation results by block, tile, and seed."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E1_E6\\table_E4_blocked_validation.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_tex_fragments\\E1_E6\\appendix_table_E4_blocked_validation.tex",
+      "sha256": "41876594f788b646dfe0695c8100129a03a328c80830e5f5226930b4bd2d168f",
+      "file_size": 9293,
+      "asset_type": "tex_fragment",
+      "experiment_id": "E4",
+      "intended_location": "appendix",
+      "short_description": "Appendix rendering of the blocked-validation full table."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\tables\\table_E5_external_regime_audit.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E1_E6\\table_E5_external_regime_audit.csv",
+      "sha256": "54df8564c0d17c971d1723c592d5cb38c6a4176956e3604aea045aa1ec79a41d",
+      "file_size": 1097,
+      "asset_type": "table_csv",
+      "experiment_id": "E5",
+      "intended_location": "appendix",
+      "short_description": "Original external audit grouped by coverage and regime notes."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E1_E6\\table_E5_external_regime_audit.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_tex_fragments\\E1_E6\\appendix_table_E5_external_regime_audit.tex",
+      "sha256": "4968dc97f1aac6e9cba5b55bfedc6dcdfc9777629945f1ecefba14892bb22173",
+      "file_size": 1726,
+      "asset_type": "tex_fragment",
+      "experiment_id": "E5",
+      "intended_location": "appendix",
+      "short_description": "LaTeX fragment generated from table_E5_external_regime_audit.csv."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\tables\\table_E6_ssvcea_threshold_sweep.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E1_E6\\table_E6_ssvcea_threshold_sweep.csv",
+      "sha256": "a94ef8eadfbec27ff1b07d01d695980e00b56ae0b3e118c92676589bf6cea27e",
+      "file_size": 532,
+      "asset_type": "table_csv",
+      "experiment_id": "E6",
+      "intended_location": "main_text",
+      "short_description": "Stress-safe threshold sweep for SS-VCEA."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E1_E6\\table_E6_ssvcea_threshold_sweep.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_tex_fragments\\E1_E6\\main_table_E6_ssvcea_threshold_sweep.tex",
+      "sha256": "875f5e28c0b2ff14849a03bee414da654de5f4f4502e7bde8f403ec697c27550",
+      "file_size": 875,
+      "asset_type": "tex_fragment",
+      "experiment_id": "E6",
+      "intended_location": "main_text",
+      "short_description": "LaTeX fragment generated from table_E6_ssvcea_threshold_sweep.csv."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\figures\\fig_E1_protocol_timeline.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E1\\fig_E1_protocol_timeline.png",
+      "sha256": "37e00d16307b06d98a58d816684fe0d78a572ddc26a8ae2e8ea20d3c1b1c6a22",
+      "file_size": 72568,
+      "asset_type": "figure_png",
+      "experiment_id": "E1",
+      "intended_location": "appendix",
+      "short_description": "Schematic comparison of target-time, containment, and gap-buffer split protocols."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\figures\\fig_E1_skill_delta_by_tile.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E1\\fig_E1_skill_delta_by_tile.png",
+      "sha256": "9bcf12aea5429eef3abd9de61e1051e1ada71e2dd395a06743fd431c4eda6581",
+      "file_size": 87274,
+      "asset_type": "figure_png",
+      "experiment_id": "E1",
+      "intended_location": "main_text",
+      "short_description": "Tile-wise VCEA gain over M1 under stricter leakage-audit protocols."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\figures\\fig_E2_expert_weights_heatmap.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E2\\fig_E2_expert_weights_heatmap.png",
+      "sha256": "f740c8dabd5998e764785fe8e67e89d2c778fd397561bb5c615f9ff548be1465",
+      "file_size": 171599,
+      "asset_type": "figure_png",
+      "experiment_id": "E2",
+      "intended_location": "main_text",
+      "short_description": "Validation-calibrated expert-weight heatmap over tile and horizon."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\figures\\fig_E2_remove_expert_delta.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E2\\fig_E2_remove_expert_delta.png",
+      "sha256": "99c08b90cb0c5a5ea1045200efd6d60cc3aa6a20d3a580d93976d14a08cfcf15",
+      "file_size": 135469,
+      "asset_type": "figure_png",
+      "experiment_id": "E2",
+      "intended_location": "appendix",
+      "short_description": "Skill and stress deltas after removing experts from the VCEA pool."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\figures\\fig_E3_calibration_barplot.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E3\\fig_E3_calibration_barplot.png",
+      "sha256": "ac7f4ca5c20526396df2b85c0b3e8b45b870bb0ab9c8ce8ae82c69c4e5759a41",
+      "file_size": 110265,
+      "asset_type": "figure_png",
+      "experiment_id": "E3",
+      "intended_location": "main_text",
+      "short_description": "Calibration ablation summary across main-six and external settings."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\figures\\fig_E3_val_vs_test_weights.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E3\\fig_E3_val_vs_test_weights.png",
+      "sha256": "f79ac0f6538d501d210e99d6f0adc8517dc198e623caf80080b5e8300fa23a7f",
+      "file_size": 104385,
+      "asset_type": "figure_png",
+      "experiment_id": "E3",
+      "intended_location": "appendix",
+      "short_description": "Relationship between validation-derived and oracle test weights."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\figures\\fig_E4_test_skill_by_block.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E4\\fig_E4_test_skill_by_block.png",
+      "sha256": "e4345a701f1e70cef89f9d697decc9cf64a6b37e8e249ac49fc5cbcc386e67e5",
+      "file_size": 49069,
+      "asset_type": "figure_png",
+      "experiment_id": "E4",
+      "intended_location": "appendix",
+      "short_description": "Test skill distribution under early, middle, and late validation blocks."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\figures\\fig_E4_weight_stability.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E4\\fig_E4_weight_stability.png",
+      "sha256": "8f739271927e50c1cdd89aed9edc486a41e46885fc0094b0ee5debcf23f312ce",
+      "file_size": 57172,
+      "asset_type": "figure_png",
+      "experiment_id": "E4",
+      "intended_location": "appendix",
+      "short_description": "Weight drift from full-validation calibration under blocked validation."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\figures\\fig_E5_external_map_regime.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E5\\fig_E5_external_map_regime.png",
+      "sha256": "5acc58051badad55322b494b57e463a59354d89e1b1b9b35b4ecb21cdaeab082",
+      "file_size": 102829,
+      "asset_type": "figure_png",
+      "experiment_id": "E5",
+      "intended_location": "appendix",
+      "short_description": "Original external locked tiles mapped with dominant-regime annotations."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\figures\\fig_E5_skill_vs_coverage.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E5\\fig_E5_skill_vs_coverage.png",
+      "sha256": "86f0571ccbf10fe17b752716862869f2e183e5878bcdc5dcbfbbe13e6fb4bd74",
+      "file_size": 89130,
+      "asset_type": "figure_png",
+      "experiment_id": "E5",
+      "intended_location": "appendix",
+      "short_description": "External skill versus valid coverage for the original external audit."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\figures\\fig_E6_fallback_rate_by_tile.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E6\\fig_E6_fallback_rate_by_tile.png",
+      "sha256": "536551f2ac2ad23e6ca353e9841df36518ffe947fb2c1c56f46d4d7aed2460ac",
+      "file_size": 65031,
+      "asset_type": "figure_png",
+      "experiment_id": "E6",
+      "intended_location": "appendix",
+      "short_description": "Fallback rate by tile and threshold under SS-VCEA."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\figures\\fig_E6_skill_stress_frontier.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E6\\fig_E6_skill_stress_frontier.png",
+      "sha256": "377a034724b2ba760bf6fdc283c111486eff4b65bed50013015c8a74644b5730",
+      "file_size": 105372,
+      "asset_type": "figure_png",
+      "experiment_id": "E6",
+      "intended_location": "main_text",
+      "short_description": "Skill-stress trade-off frontier for SS-VCEA threshold selection."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\E7_pan_europe_locked_audit_strong\\csv\\table_E7_pan_europe_failure_cases.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E7_strong\\table_E7_pan_europe_failure_cases.csv",
+      "sha256": "a2b40fd040150007f4524eccfbb0b5ce3f3527cc96991d681d265caed73a3b1d",
+      "file_size": 979,
+      "asset_type": "table_csv",
+      "experiment_id": "E7_strong",
+      "intended_location": "main_text",
+      "short_description": "Strong E7 operating-boundary cases under the frozen 14-tile European audit."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E7_strong\\table_E7_pan_europe_failure_cases.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_tex_fragments\\E7_strong\\main_table_E7_pan_europe_failure_cases.tex",
+      "sha256": "384b585a6d1edd4448fcabcee7a67e5f84992edfe893fa41f6a6996f6d26e174",
+      "file_size": 1438,
+      "asset_type": "tex_fragment",
+      "experiment_id": "E7_strong",
+      "intended_location": "main_text",
+      "short_description": "Main-text failure-case table for strong E7."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\E7_pan_europe_locked_audit_strong\\csv\\table_E7_pan_europe_group_summary.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E7_strong\\table_E7_pan_europe_group_summary.csv",
+      "sha256": "9360227352f418b4c7c350063d183524ef52090ea65cd3fd2d53fd454fb181b6",
+      "file_size": 8228,
+      "asset_type": "table_csv",
+      "experiment_id": "E7_strong",
+      "intended_location": "main_text",
+      "short_description": "Strong E7 group summary by region, regime, and coverage strata."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E7_strong\\table_E7_pan_europe_group_summary.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_tex_fragments\\E7_strong\\main_table_E7_pan_europe_group_summary.tex",
+      "sha256": "564cae11ee92993b1b5fe8a629d20dc300a3c5d3750621bb275ed5370e0d68ef",
+      "file_size": 6003,
+      "asset_type": "tex_fragment",
+      "experiment_id": "E7_strong",
+      "intended_location": "main_text",
+      "short_description": "Compact main-text summary derived from the full E7 group summary CSV."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E7_strong\\table_E7_pan_europe_group_summary.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_tex_fragments\\E7_strong\\appendix_table_E7_pan_europe_group_summary_full.tex",
+      "sha256": "a6b1955f6ed3adf24921fb2ccf20c7c6f2a7f071a03f28c2ba47b465d03b2535",
+      "file_size": 13344,
+      "asset_type": "tex_fragment",
+      "experiment_id": "E7_strong",
+      "intended_location": "appendix",
+      "short_description": "Full appendix version of the E7 group summary."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\E7_pan_europe_locked_audit_strong\\csv\\table_E7_pan_europe_locked_results_by_tile.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E7_strong\\table_E7_pan_europe_locked_results_by_tile.csv",
+      "sha256": "83a2948a836af0600ee8eb5c1ea3f345ea06de159079c798733af0ff46c1afc8",
+      "file_size": 456943,
+      "asset_type": "table_csv",
+      "experiment_id": "E7_strong",
+      "intended_location": "appendix",
+      "short_description": "Full by-tile by-horizon results for the strong 14-tile European frozen audit."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E7_strong\\table_E7_pan_europe_locked_results_by_tile.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_tex_fragments\\E7_strong\\appendix_table_E7_pan_europe_locked_results_by_tile.tex",
+      "sha256": "b95d7fd0033e5dd8e3b3cc84d1ebccf08cfcf928f7bbd342ee815b377fd4921b",
+      "file_size": 624532,
+      "asset_type": "tex_fragment",
+      "experiment_id": "E7_strong",
+      "intended_location": "appendix",
+      "short_description": "Split longtable appendix rendering of the full E7 by-tile results."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\E7_pan_europe_locked_audit_strong\\manifests\\table_E7_api_tile_catalog.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E7_strong\\table_E7_api_tile_catalog.csv",
+      "sha256": "82aa16d3e15a408f7f5742327e4693f5f8bb9ff847ca1618e76e830043425050",
+      "file_size": 197179,
+      "asset_type": "table_csv",
+      "experiment_id": "E7_strong",
+      "intended_location": "appendix",
+      "short_description": "Official EGMS API tile catalog harvested for strong E7 selection."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E7_strong\\table_E7_api_tile_catalog.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_tex_fragments\\E7_strong\\appendix_table_E7_api_tile_catalog.tex",
+      "sha256": "962a8797a429048cb67a03c1265c482e439e9494b05d42d62e0d10ec1bb05916",
+      "file_size": 240073,
+      "asset_type": "tex_fragment",
+      "experiment_id": "E7_strong",
+      "intended_location": "appendix",
+      "short_description": "Appendix rendering of a strong-E7 metadata or manifest table."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\E7_pan_europe_locked_audit_strong\\manifests\\table_E7_pan_europe_tile_metadata.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E7_strong\\table_E7_pan_europe_tile_metadata.csv",
+      "sha256": "91c75b97ca3b5fcd19df033a385752a5bb5e9f52547bdb38cd0fede04f1f85d3",
+      "file_size": 11260,
+      "asset_type": "table_csv",
+      "experiment_id": "E7_strong",
+      "intended_location": "appendix",
+      "short_description": "Metadata and regime/coverage audit for the 14 held-out strong E7 tiles."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E7_strong\\table_E7_pan_europe_tile_metadata.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_tex_fragments\\E7_strong\\appendix_table_E7_pan_europe_tile_metadata.tex",
+      "sha256": "d6178993e6843b2030a2f22f6fee377cbf6b3cdcfa71d5a229c1210855dcb4dd",
+      "file_size": 18174,
+      "asset_type": "tex_fragment",
+      "experiment_id": "E7_strong",
+      "intended_location": "appendix",
+      "short_description": "Appendix rendering of a strong-E7 metadata or manifest table."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\E7_pan_europe_locked_audit_strong\\manifests\\table_E7_selected_tiles_prefetch.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E7_strong\\table_E7_selected_tiles_prefetch.csv",
+      "sha256": "b368a1077373f8693ec32f302903dab4e88d2996d8beb30f15f7458273bdae81",
+      "file_size": 6662,
+      "asset_type": "table_csv",
+      "experiment_id": "E7_strong",
+      "intended_location": "appendix",
+      "short_description": "Prefetch list and selection notes for the 14 strong E7 held-out tiles."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E7_strong\\table_E7_selected_tiles_prefetch.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_tex_fragments\\E7_strong\\appendix_table_E7_selected_tiles_prefetch.tex",
+      "sha256": "83a07ee977451852a8d6f6c2d2d25330fcb23f4c71e01b8d608f3afcaced615b",
+      "file_size": 10133,
+      "asset_type": "tex_fragment",
+      "experiment_id": "E7_strong",
+      "intended_location": "appendix",
+      "short_description": "Appendix rendering of a strong-E7 metadata or manifest table."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\E7_pan_europe_locked_audit_strong\\manifests\\threshold_diag_main6_validation.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E7_strong\\threshold_diag_main6_validation.csv",
+      "sha256": "9ca9b14152d26641ae29d778d0b3acf7e559b548f1cffab1a9551f314ce0d799",
+      "file_size": 7599,
+      "asset_type": "table_csv",
+      "experiment_id": "E7_strong",
+      "intended_location": "appendix",
+      "short_description": "Main-six validation diagnostics used to calibrate SS-VCEA thresholds for strong E7."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_csv_original\\E7_strong\\threshold_diag_main6_validation.csv",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\tables_tex_fragments\\E7_strong\\appendix_threshold_diag_main6_validation.tex",
+      "sha256": "0980a63dc5bf41e106c5999c5a807b878401d9acb8e210c98c69551fb8e7bb14",
+      "file_size": 9609,
+      "asset_type": "tex_fragment",
+      "experiment_id": "E7_strong",
+      "intended_location": "appendix",
+      "short_description": "Appendix rendering of a strong-E7 metadata or manifest table."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\E7_pan_europe_locked_audit_strong\\figures\\fig_E7_failure_case_overview.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E7_strong\\fig_E7_failure_case_overview.png",
+      "sha256": "25f1b200a010a5aab26d6766cf9d4ba22d77d07373aa48d88bb906a92ce114ca",
+      "file_size": 92762,
+      "asset_type": "figure_png",
+      "experiment_id": "E7_strong",
+      "intended_location": "appendix",
+      "short_description": "Heatmap overview of strong E7 gains and stress ratios across held-out tiles and horizons."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\E7_pan_europe_locked_audit_strong\\figures\\fig_E7_pan_europe_tile_map.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E7_strong\\fig_E7_pan_europe_tile_map.png",
+      "sha256": "d48fe587050b5707b5bb209b6441ce657d9c73721464f5f39ef35efae8b6aed9",
+      "file_size": 121735,
+      "asset_type": "figure_png",
+      "experiment_id": "E7_strong",
+      "intended_location": "main_text",
+      "short_description": "Map of development, original external, and 14 strong E7 held-out tiles."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\E7_pan_europe_locked_audit_strong\\figures\\fig_E7_skill_by_regime.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E7_strong\\fig_E7_skill_by_regime.png",
+      "sha256": "269c710b1b2e706dd8db0287a3a99117bf6e498e6694b813bbc88a150f12d193",
+      "file_size": 104465,
+      "asset_type": "figure_png",
+      "experiment_id": "E7_strong",
+      "intended_location": "appendix",
+      "short_description": "Strong E7 gains and stress metrics grouped by audit-regime class."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\E7_pan_europe_locked_audit_strong\\figures\\fig_E7_skill_by_region.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E7_strong\\fig_E7_skill_by_region.png",
+      "sha256": "592bee23d46f19518bede5481d2690388b630bbe8ab732bbe709668eeccc1490",
+      "file_size": 123803,
+      "asset_type": "figure_png",
+      "experiment_id": "E7_strong",
+      "intended_location": "main_text",
+      "short_description": "Strong E7 VCEA gain and SS-VCEA fallback rate by broad European region."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\E7_pan_europe_locked_audit_strong\\figures\\fig_E7_skill_vs_coverage.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E7_strong\\fig_E7_skill_vs_coverage.png",
+      "sha256": "9660b2b85f5c82f046aa3d72221979139022b40f52c2e3f0ab55edaf9f9e47ec",
+      "file_size": 86405,
+      "asset_type": "figure_png",
+      "experiment_id": "E7_strong",
+      "intended_location": "main_text",
+      "short_description": "Strong E7 gain versus valid coverage over the 14 held-out tiles."
+    },
+    {
+      "source_path": "${PROJECT_ROOT}\\outputs\\tgrs_2019_2023\\vcea_extra_experiments\\E7_pan_europe_locked_audit_strong\\figures\\fig_E7_stress_by_region.png",
+      "target_path": "${PROJECT_ROOT}\\paper_assets_vcea_extras\\figures\\E7_strong\\fig_E7_stress_by_region.png",
+      "sha256": "5dcd135e691499cb77250dcac74d2c6f7e25534984bd57bca9de18228032fe70",
+      "file_size": 112985,
+      "asset_type": "figure_png",
+      "experiment_id": "E7_strong",
+      "intended_location": "appendix",
+      "short_description": "Strong E7 SS-VCEA stress ratio and fallback rate by region."
+    }
+  ]
+}
+

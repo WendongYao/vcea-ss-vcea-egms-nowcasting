@@ -1,0 +1,26 @@
+﻿model_id: V3-B
+variant: v3b
+input_len: 16
+horizons:
+  - 1
+  - 3
+  - 5
+  - 10
+dim: 64
+depth: 1
+heads: 4
+mlp_dim: 128
+patch_size: 8
+batch_size: 6
+epochs: 18
+lr: 0.0003
+weight_decay: 5e-05
+patience: 5
+seed: 42
+use_amp: true
+select_by_skill: true
+min_scale_mm: 0.15
+horizon_scale_alpha: 0.75
+temporal_depth: 1
+conv_width: 48
+num_workers: 0

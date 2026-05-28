@@ -1,0 +1,18 @@
+% Source CSV: tables_csv_original/E1_E6/table_E6_ssvcea_threshold_sweep.csv
+\begin{table*}[t]
+\centering
+\footnotesize
+\begin{tabular}{lllllll}
+\toprule
+Threshold & Skill$_{\mathrm{MSE}}$ & Stress ratio & Fallback rate & Correction magnitude & Worse tiles & Selected? \\
+\midrule
+no\_fallback & 0.178 & 1.046 & 0.000 & 0.000 & 0.000 & 0.000 \\
+q90 & 0.161 & 0.992 & 0.157 & 0.056 & 5.000 & 0.000 \\
+q95 & 0.171 & 0.991 & 0.102 & 0.043 & 3.000 & 0.000 \\
+q97p5 & 0.178 & 0.992 & 0.070 & 0.033 & 3.000 & 1.000 \\
+q99 & 0.179 & 0.997 & 0.040 & 0.021 & 3.000 & 0.000 \\
+\bottomrule
+\end{tabular}
+\caption{Threshold sweep for SS-VCEA. The selected $q97.5$ operating point preserves skill close to VCEA while reducing stress below one with a modest fallback rate, making it the preferred conservative operating point.}
+\label{tab:e6_threshold_sweep}
+\end{table*}

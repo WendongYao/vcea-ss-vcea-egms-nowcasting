@@ -1,0 +1,1 @@
+Existing diagnostic panel plus regime and physics CSVs; manuscript may recompose this into the final panel.

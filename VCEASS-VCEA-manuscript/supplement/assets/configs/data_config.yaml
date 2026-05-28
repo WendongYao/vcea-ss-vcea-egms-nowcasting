@@ -1,0 +1,52 @@
+﻿dataset:
+  name: EGMS 2019-2023 Ortho U
+  statement: Due to data access constraints, all frozen experiments continue to use
+    EGMS 2019-2023 Ortho U.
+  input_length: 16
+  horizons:
+  - 1
+  - 3
+  - 5
+  - 10
+scope_decision:
+  mainline: 64x64 regional nowcasting remains the primary paper setting
+  high_resolution_role: 128/512 are robustness and resolution-sensitivity axes, not
+    a task redefinition
+  external_locked_eval: true
+paths:
+  raw_zip_dir: ${PROJECT_ROOT}\data\raw
+  extracted_dir: ${PROJECT_ROOT}\data\extracted_2019_2023
+  legacy_processed_dir: ${PROJECT_ROOT}\data\processed\tgrs_2019_2023
+  manifest_dir: ${PROJECT_ROOT}\data\manifests
+  split_dir: ${PROJECT_ROOT}\splits
+  cache_root: ${PROJECT_ROOT}\cache
+  output_root: ${PROJECT_ROOT}\outputs\tgrs_2019_2023
+tile_groups:
+  main6:
+  - E32N34
+  - E32N35
+  - E39N30
+  - E44N23
+  - E48N24
+  - E58N17
+  external4_locked:
+  - E30N35
+  - E37N42
+  - E42N21
+  - E45N51
+  resolution_family_tiles:
+  - E32N34
+  - E39N30
+  - E48N24
+resolutions:
+- 64
+- 128
+- 512
+expert_pool:
+  pool_id: pool_persistence_linearseasonal_m1_c3_v1
+  experts:
+  - Persistence
+  - Linear-Seasonal
+  - M1
+  - C3_opt
+

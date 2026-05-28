@@ -1,0 +1,7 @@
+field,unit,description
+runtime_total_seconds,seconds,End-to-end pipeline cost including expert generation when available
+runtime_infer_seconds,seconds,Per-run or per-eval inference cost from source artifact
+runtime_aggregation_only_seconds,seconds,"Aggregation-only cost, excluding expert generation"
+peak_memory_mb,MB,Peak GPU memory where historical artifact reported it
+param_count,count,Trainable parameter count or 0 for non-parametric aggregation
+runtime_scope,categorical,full_pipeline / aggregation_only / unavailable

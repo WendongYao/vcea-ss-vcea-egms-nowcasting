@@ -1,0 +1,33 @@
+﻿model_id: V5D_risk_selector
+variant: risk
+expert_names:
+  - persistence
+  - linear_seasonal
+  - M1
+  - C3_opt
+hidden_dim: 40
+depth: 3
+batch_size: 8
+epochs: 20
+lr: 0.0003
+weight_decay: 0.0001
+patience: 4
+seed: 42
+use_amp: true
+num_workers: 0
+penalty_lambda: 0.55
+entropy_lambda: 0.01
+oracle_ce_lambda: 0.0
+risk_bce_lambda: 0.35
+risk_margin: 0.0
+use_risk_head: true
+hard_selection: false
+persistence_bias: 1.0
+gumbel_tau: 1.0
+select_thresholds:
+  - 0.45
+  - 0.5
+  - 0.55
+  - 0.6
+  - 0.65
+  - 0.7

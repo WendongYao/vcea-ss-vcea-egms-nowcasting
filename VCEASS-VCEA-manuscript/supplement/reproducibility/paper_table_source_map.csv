@@ -1,0 +1,10 @@
+paper_item,section,source_file,note
+Table II main-six comparison,Results,outputs/tgrs_2019_2023/staticval_ea_study/final_aggregation_comparison.csv,primary 64x64 main-six comparison
+Table III split-protocol audit,Results,paper_assets_vcea_extras/tables_csv_original/E1_E6/table_E1_leakage_audit.csv,target-time versus stricter split protocols
+Table IV expert-pool ablation,Results,paper_assets_vcea_extras/tables_csv_original/E1_E6/table_E2_expert_ablation_main6.csv,main-six heterogeneous-expert ablation
+Table V calibration ablation,Results,paper_assets_vcea_extras/tables_csv_original/E1_E6/table_E3_calibration_ablation.csv,tile/horizon calibration audit
+Table VI SS-VCEA threshold sweep,Results,paper_assets_vcea_extras/tables_csv_original/E1_E6/table_E6_ssvcea_threshold_sweep.csv,validation-only threshold sweep
+Table VII 14-tile European audit summary,Results,paper_assets_vcea_extras/tables_csv_original/E7_strong/table_E7_pan_europe_group_summary.csv,grouped strong audit summary
+Table VIII operating-boundary cases,Results,paper_assets_vcea_extras/tables_csv_original/E7_strong/table_E7_pan_europe_failure_cases.csv,localized boundary cases
+Appendix statistical audit,Appendix,tables/table_E7_statistical_significance.csv,tile-level sign test and paired bootstrap summary
+Appendix horizon gain audit,Appendix,tables/table_E7_horizon_gain_ci.csv,per-horizon gain summary

@@ -1,0 +1,1 @@
+Pipeline figure should be redrawn from protocol docs; not copied as final image.
