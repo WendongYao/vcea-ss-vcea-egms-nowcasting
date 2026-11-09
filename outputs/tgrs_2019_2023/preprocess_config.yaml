@@ -1,0 +1,27 @@
+{
+  "data_period": "EGMS Ortho U 2019-2023",
+  "tiles": [
+    "E32N34",
+    "E32N35",
+    "E39N30",
+    "E44N23",
+    "E48N24",
+    "E58N17"
+  ],
+  "input_len": 16,
+  "horizons": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "main_resolution": [
+    64,
+    64
+  ],
+  "secondary_resolution": [
+    128,
+    128
+  ],
+  "device": "NVIDIA GeForce RTX 3090 Ti"
+}
