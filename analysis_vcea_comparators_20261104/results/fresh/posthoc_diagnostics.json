@@ -1,0 +1,89 @@
+{
+  "V3_defined_tiles": 20,
+  "V3_minus_BG_on_defined_tiles": {
+    "n": 20,
+    "mean_delta": 0.008,
+    "wins": 13,
+    "p": 0.04484748840332031
+  },
+  "V3_minus_BG_on_defined_tiles_two_sided": {
+    "n": 20,
+    "mean_delta": 0.008,
+    "wins": 13,
+    "p": 0.08969497680664062
+  },
+  "means_on_V3_defined_tiles": {
+    "VCEA": 0.1909,
+    "BatesGranger": 0.1829,
+    "V3_EvidenceGate": 0.1909,
+    "NNLS_simplex": 0.1666
+  },
+  "VCEA_minus_BG_all24_one_sided": {
+    "n": 24,
+    "mean_delta": 0.0106,
+    "wins": 16,
+    "p": 0.013463854789733887
+  },
+  "VCEA_minus_BG_tiles_with_>=10_val_windows": {
+    "n": 19,
+    "mean_delta": 0.008,
+    "wins": 12,
+    "p": 0.06681060791015625
+  },
+  "BG_minus_SelectBestVal_tiles_with_>=10_val_windows": {
+    "n": 19,
+    "mean_delta": 0.1196,
+    "wins": 18,
+    "p": 9.5367431640625e-06
+  },
+  "BG_minus_Uniform4_tiles_with_>=10_val_windows": {
+    "n": 19,
+    "mean_delta": 0.0966,
+    "wins": 19,
+    "p": 1.9073486328125e-06
+  },
+  "BG_minus_M1_tiles_with_>=10_val_windows": {
+    "n": 19,
+    "mean_delta": 0.1247,
+    "wins": 18,
+    "p": 5.7220458984375e-06
+  },
+  "short_val_tiles": {
+    "E40N42": {
+      "val_windows": 1,
+      "VCEA": 0.31,
+      "BatesGranger": 0.312,
+      "M1": -0.004,
+      "Uniform4": 0.258
+    },
+    "E41N44": {
+      "val_windows": 1,
+      "VCEA": 0.282,
+      "BatesGranger": 0.279,
+      "M1": 0.025,
+      "Uniform4": 0.259
+    },
+    "E42N41": {
+      "val_windows": 1,
+      "VCEA": 0.58,
+      "BatesGranger": 0.56,
+      "M1": 0.269,
+      "Uniform4": 0.542
+    },
+    "E46N48": {
+      "val_windows": 1,
+      "VCEA": 0.687,
+      "BatesGranger": 0.614,
+      "M1": 0.295,
+      "Uniform4": 0.545
+    },
+    "E47N43": {
+      "val_windows": 4,
+      "VCEA": 0.521,
+      "BatesGranger": 0.512,
+      "M1": 0.329,
+      "Uniform4": 0.498
+    }
+  },
+  "note": "POST-HOC diagnostics written after the one-time eval; not part of the pre-registered tests."
+}

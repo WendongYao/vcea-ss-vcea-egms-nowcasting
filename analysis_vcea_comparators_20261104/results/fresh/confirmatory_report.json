@@ -1,0 +1,88 @@
+{
+  "run_at_utc": "2026-11-06T04:23:32.304676+00:00",
+  "forced_rerun": false,
+  "variant": "V3_EvidenceGate",
+  "primary": [
+    {
+      "contrast": "BatesGranger - SelectBestVal",
+      "mean_delta": 0.10910730539019241,
+      "wins": 21,
+      "n": 24,
+      "p_one_sided": 1.5079975128173828e-05,
+      "p_holm": 3.0159950256347656e-05
+    },
+    {
+      "contrast": "BatesGranger - Uniform4",
+      "mean_delta": 0.08384185986903618,
+      "wins": 24,
+      "n": 24,
+      "p_one_sided": 5.960464477539063e-08,
+      "p_holm": 2.384185791015625e-07
+    },
+    {
+      "contrast": "BatesGranger - M1",
+      "mean_delta": 0.15546700596066224,
+      "wins": 23,
+      "n": 24,
+      "p_one_sided": 1.7881393432617188e-07,
+      "p_holm": 5.364418029785156e-07
+    },
+    {
+      "contrast": "V3_EvidenceGate - BatesGranger",
+      "mean_delta": 0.0001634813136101693,
+      "wins": 13,
+      "n": 24,
+      "p_one_sided": NaN,
+      "p_holm": 3.0159950256347656e-05
+    }
+  ],
+  "secondary": [
+    {
+      "contrast": "VCEA - BatesGranger + 0.01",
+      "mean_delta": 0.010601552763789967,
+      "wins": 16,
+      "n": 24,
+      "p_one_sided": 3.2782554626464844e-06
+    },
+    {
+      "contrast": "VCEA - VCEA_noLS",
+      "mean_delta": 0.1121193821837531,
+      "wins": 24,
+      "n": 24,
+      "p_one_sided": 5.960464477539063e-08
+    },
+    {
+      "contrast": "VCEA - VCEA_noNeural",
+      "mean_delta": 0.06136076268522253,
+      "wins": 22,
+      "n": 24,
+      "p_one_sided": 8.165836334228516e-06
+    },
+    {
+      "contrast": "VCEA - NNLS_simplex",
+      "mean_delta": 0.01799196847491559,
+      "wins": 18,
+      "n": 24,
+      "p_one_sided": 0.017870306968688965
+    }
+  ],
+  "verdict": {
+    "method_claim_supported": false,
+    "soft_combination_claim_supported": true,
+    "vcea_noninferior_to_bg_margin_0.01": true
+  },
+  "mean_skill": {
+    "VCEA": 0.2366,
+    "BatesGranger": 0.226,
+    "NNLS_simplex": 0.2186,
+    "V3_EvidenceGate": 0.1877,
+    "VCEA_noNeural": 0.1752,
+    "Uniform4": 0.1421,
+    "VCEA_noLS": 0.1245,
+    "SelectBestVal": 0.1169,
+    "C3_opt": 0.0806,
+    "M1": 0.0705,
+    "Persistence": 0.0,
+    "Linear-Seasonal": -1.7913
+  }
+}
