@@ -1,0 +1,54 @@
+{
+  "frozen_at_utc": "2026-11-04T12:58:24.023506+00:00",
+  "selected_variant": "V3_EvidenceGate",
+  "carried_forward": true,
+  "params": {},
+  "tau_h_inner_dev": [
+    2.0,
+    4.0,
+    4.0,
+    4.0
+  ],
+  "dev_mean_nested_suffix_skill": {
+    "BatesGranger": 0.21267,
+    "V1_HorizonTau": 0.21045,
+    "V2_BootBlend": 0.209285,
+    "V3_EvidenceGate": 0.215022,
+    "VCEA": 0.209087
+  },
+  "dev_by_horizon": {
+    "BatesGranger": {
+      "t+1": 0.046339,
+      "t+3": 0.176743,
+      "t+5": 0.256039,
+      "t+10": 0.37156
+    },
+    "V1_HorizonTau": {
+      "t+1": 0.027222,
+      "t+3": 0.167298,
+      "t+5": 0.269979,
+      "t+10": 0.377301
+    },
+    "V2_BootBlend": {
+      "t+1": 0.022303,
+      "t+3": 0.167656,
+      "t+5": 0.269673,
+      "t+10": 0.377507
+    },
+    "V3_EvidenceGate": {
+      "t+1": 0.035267,
+      "t+3": 0.17321,
+      "t+5": 0.272595,
+      "t+10": 0.379018
+    },
+    "VCEA": {
+      "t+1": 0.021772,
+      "t+3": 0.167298,
+      "t+5": 0.269979,
+      "t+10": 0.377301
+    }
+  },
+  "selection_rule": "best of V1-V3 by mean nested-suffix Skill on main-six validation; carried only if > VCEA and > BatesGranger",
+  "data_used": "main-six validation windows only (act_v7 seed_expert_cache *_val.npz)",
+  "code_sha256": "bef24c560c6d10db2d0a705eb0cd92b57549712b1f2616a80a332bf6655c7d13"
+}
