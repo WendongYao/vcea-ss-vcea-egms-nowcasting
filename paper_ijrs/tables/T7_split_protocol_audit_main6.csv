@@ -1,0 +1,4 @@
+Protocol,Window rule,Train windows,Val windows,Test windows,VCEA Skill,M1 Skill,VCEA gain vs M1,SS-VCEA stress ratio,Conclusion
+Target-time assignment,原始 target-time protocol：按目标时刻归属 split，history 允许跨 boundary，但不访问目标之后的时间帧。,1117,120,306,0.1776329118299743,0.0783341230429559,0.0992987887870183,0.9916542573534444,positive gain retained
+Full-window containment,history window 与所有 target horizon 均需完整落在同一 split。,1117,30,216,0.1594244918433876,0.0800566890983636,0.0793678027450239,1.1518892311469842,positive gain retained
+Gap-buffer (10 frames),在 split boundary 后增加 10 帧缓冲，窗口仍按 target-time 归属；这是对 full retrain 之外的更严格审计。,1057,60,246,0.170258584324473,0.0850581618617393,0.0852004224627337,1.133257316897514,positive gain retained

@@ -1,0 +1,5 @@
+Expert,Parameters,"Train s per tile-seed (median, GPU)",Train s (max),Runs
+M1,190213,7.7,9.1,72.0
+C3_opt,69929,26.3,51.9,72.0
+Linear-Seasonal,per-pixel least squares,negligible,,
+Combiners (BG / VCEA / NNLS),4 weights per tile x horizon,< 1 s (CPU),,

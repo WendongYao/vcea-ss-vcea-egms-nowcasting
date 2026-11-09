@@ -1,0 +1,9 @@
+contrast,mean_delta,wins,n,p_one_sided,p_holm,family,note
+BatesGranger - SelectBestVal,0.10910730539019241,21,24,1.5079975128173828e-05,3.0159950256347656e-05,primary (pre-registered),
+BatesGranger - Uniform4,0.08384185986903618,24,24,5.960464477539063e-08,2.384185791015625e-07,primary (pre-registered),
+BatesGranger - M1,0.15546700596066224,23,24,1.7881393432617188e-07,5.364418029785156e-07,primary (pre-registered),
+V3_EvidenceGate - BatesGranger,0.0001634813136101693,13,24,,3.0159950256347656e-05,primary (pre-registered),V3 undefined (NaN) on 4 tiles with 1 validation window; reported p_holm is an artefact of NaN handling; verdict = not supported
+VCEA - BatesGranger + 0.01,0.010601552763789967,16,24,3.2782554626464844e-06,,secondary (pre-registered),
+VCEA - VCEA_noLS,0.1121193821837531,24,24,5.960464477539063e-08,,secondary (pre-registered),
+VCEA - VCEA_noNeural,0.06136076268522253,22,24,8.165836334228516e-06,,secondary (pre-registered),
+VCEA - NNLS_simplex,0.01799196847491559,18,24,0.017870306968688965,,secondary (pre-registered),

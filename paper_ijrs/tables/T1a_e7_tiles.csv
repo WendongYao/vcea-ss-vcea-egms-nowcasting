@@ -1,0 +1,15 @@
+tile_id,frames,valid_grid_ratio_64,temporal_span,broad_region,audit_regime_group
+E27N24,302,0.5146484375,2019-01-07 - 2023-12-18,Northwest/Atlantic,seasonal-mixed
+E31N16,302,0.8955078125,2019-01-07 - 2023-12-18,Mediterranean/Southern,seasonal-mixed
+E34N39,301,0.912109375,2019-01-13 - 2023-12-18,Northwest/Atlantic,mixed-general
+E39N23,302,0.995361328125,2019-01-07 - 2023-12-18,Alpine/Mountain,mixed-general
+E40N31,302,0.993408203125,2019-01-07 - 2023-12-18,Central/Continental,mixed-general
+E44N30,302,0.931884765625,2019-01-07 - 2023-12-18,Central/Continental,seasonal-mixed
+E44N43,111,0.99462890625,2019-06-06 - 2023-09-25,Northern/Nordic,mixed-general
+E48N26,302,0.7578125,2019-01-07 - 2023-12-18,Alpine/Mountain,subsidence-mixed
+E48N32,278,0.966064453125,2019-02-06 - 2023-11-30,Central/Continental,mixed-general
+E49N22,302,0.279541015625,2019-01-07 - 2023-12-18,Mediterranean/Tectonic,sparse-support
+E49N44,134,0.977783203125,2019-05-13 - 2023-10-07,Northern/Nordic,mixed-general
+E55N14,303,0.71630859375,2019-01-07 - 2023-12-24,Mediterranean/Southern,seasonal-mixed
+E57N25,301,0.682373046875,2019-01-13 - 2023-12-18,Mediterranean/Tectonic,seasonal-mixed
+E58N26,301,0.16845703125,2019-01-13 - 2023-12-18,Mediterranean/Tectonic,sparse-support

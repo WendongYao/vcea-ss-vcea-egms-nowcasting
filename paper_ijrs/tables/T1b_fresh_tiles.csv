@@ -1,0 +1,25 @@
+tile_id,frames,val_windows,test_windows,valid_grid_ratio_64,centroid_lat,centroid_lon,lat_band,lon_band,size_stratum
+E26N17,302,20,51,0.675,36.962,-8.823,<42,<5,below-cell-median size
+E29N23,302,20,51,0.981,42.861,-6.891,42-48,<5,above-cell-median size
+E31N20,302,20,51,0.988,40.579,-3.856,<42,<5,above-cell-median size
+E32N37,302,20,51,0.118,55.692,-7.22,>=55,<5,below-cell-median size
+E35N35,302,20,51,0.992,54.479,-1.963,48-55,<5,above-cell-median size
+E36N33,302,20,51,0.842,52.841,-0.002,48-55,<5,below-cell-median size
+E37N27,302,20,51,0.937,47.598,2.391,42-48,<5,below-cell-median size
+E39N27,301,20,51,0.712,47.75,5.045,42-48,5-15,below-cell-median size
+E40N42,113,1,13,0.763,61.261,4.949,>=55,<5,above-cell-median size
+E41N44,113,1,13,0.388,63.113,6.612,>=55,5-15,below-cell-median size
+E42N17,298,20,50,0.521,38.831,9.184,<42,5-15,below-cell-median size
+E42N28,302,20,51,0.928,48.757,9.028,48-55,5-15,above-cell-median size
+E42N41,111,1,13,0.999,60.442,8.702,>=55,5-15,above-cell-median size
+E43N26,302,20,51,0.703,46.961,10.384,42-48,5-15,above-cell-median size
+E43N34,302,20,51,0.748,54.154,10.449,48-55,5-15,below-cell-median size
+E46N16,303,20,51,0.805,37.855,13.716,<42,5-15,above-cell-median size
+E46N48,112,1,13,0.991,66.604,17.397,>=55,>=15,above-cell-median size
+E47N34,260,16,42,0.708,53.98,16.557,48-55,>=15,below-cell-median size
+E47N43,139,4,18,0.534,62.025,18.197,>=55,>=15,below-cell-median size
+E49N19,302,20,51,0.725,40.369,17.387,<42,>=15,above-cell-median size
+E50N29,302,20,51,0.66,49.213,20.046,48-55,>=15,above-cell-median size
+E52N20,303,20,51,0.499,40.937,21.031,<42,>=15,below-cell-median size
+E55N22,303,20,51,0.756,42.251,24.957,42-48,>=15,above-cell-median size
+E55N26,302,20,51,0.466,45.772,25.923,42-48,>=15,below-cell-median size

@@ -1,0 +1,16 @@
+Model,"Development (6 tiles, 2019-2023)","Held-out audit E7 (14 tiles, 2019-2023)","Confirmatory (24 tiles, 2020-2024)"
+VCEA,0.1776,0.2601,0.2366
+BatesGranger,0.159,0.2497,0.226
+NNLS_simplex,0.1459,0.2477,0.2186
+V3_EvidenceGate,,,
+GlobalVal,0.1267,0.1589,
+SelectBestVal,0.0847,0.1537,0.1169
+DampedLS_val,0.0764,0.1689,
+Uniform4,-1.8055,0.143,0.1421
+VCEA_noLS,0.1117,0.1474,0.1245
+VCEA_noNeural,0.0908,0.1891,0.1752
+M1,0.0783,0.1128,0.0705
+C3_opt,0.0796,0.0861,0.0806
+Persistence,0.0,0.0,0.0
+Linear-Seasonal,-36.1495,-2.0608,-1.7913
+OracleSingle_test,0.1229,0.2257,

@@ -1,0 +1,6 @@
+Model,"Development (6 tiles, 2019-2023)","Held-out audit E7 (14 tiles, 2019-2023)","Confirmatory (24 tiles, 2020-2024)"
+VCEA,0.1776,0.2601,0.2366
+BatesGranger,0.159,0.2497,0.226
+VCEA_noLS,0.1117,0.1474,0.1245
+VCEA_noNeural,0.0908,0.1891,0.1752
+M1,0.0783,0.1128,0.0705
